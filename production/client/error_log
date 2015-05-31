@@ -1,0 +1,539 @@
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/client/navigationBar.php on line 9
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 120
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/client/matchFunctions.php on line 133
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 520
+[28-May-2015 00:39:36 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 520
+[28-May-2015 00:39:36 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 531
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 520
+[28-May-2015 00:39:36 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 520
+[28-May-2015 00:39:36 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 531
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 520
+[28-May-2015 00:39:36 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 520
+[28-May-2015 00:39:36 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 531
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 520
+[28-May-2015 00:39:36 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 520
+[28-May-2015 00:39:36 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 531
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 520
+[28-May-2015 00:39:36 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 520
+[28-May-2015 00:39:36 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 531
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 520
+[28-May-2015 00:39:36 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 520
+[28-May-2015 00:39:36 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 531
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 520
+[28-May-2015 00:39:36 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 520
+[28-May-2015 00:39:36 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 531
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/client/matchFunctions.php on line 133
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:39:36 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 00:39:36 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/client/navigationBar.php on line 9
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 120
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/client/matchFunctions.php on line 133
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 521
+[28-May-2015 00:40:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 521
+[28-May-2015 00:40:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 532
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 521
+[28-May-2015 00:40:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 521
+[28-May-2015 00:40:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 532
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 521
+[28-May-2015 00:40:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 521
+[28-May-2015 00:40:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 532
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 521
+[28-May-2015 00:40:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 521
+[28-May-2015 00:40:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 532
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 521
+[28-May-2015 00:40:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 521
+[28-May-2015 00:40:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 532
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 521
+[28-May-2015 00:40:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 521
+[28-May-2015 00:40:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 532
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 521
+[28-May-2015 00:40:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 521
+[28-May-2015 00:40:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 532
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/client/matchFunctions.php on line 133
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 187
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 215
+[28-May-2015 00:40:27 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 00:40:27 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/client/navigationBar.php on line 9
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 120
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:56:27 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 00:56:27 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/client/navigationBar.php on line 9
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 120
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 00:58:18 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 00:58:18 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/client/navigationBar.php on line 9
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 120
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: bullsQuery in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/client/matchFunctions.php on line 522
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/client/matchFunctions.php on line 533
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:04:05 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 01:04:05 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/client/navigationBar.php on line 9
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 120
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/client/matchFunctions.php on line 134
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 01:11:12 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 01:11:12 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/xmatchge/public_html/client/dailyActivity.php on line 243
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/client/navigationBar.php on line 9
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 120
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/client/matchFunctions.php on line 134
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 01:12:48 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 01:12:48 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/xmatchge/public_html/client/dailyActivity.php on line 243
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/client/navigationBar.php on line 9
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 120
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/client/matchFunctions.php on line 134
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 01:13:23 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 01:13:23 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/xmatchge/public_html/client/dailyActivity.php on line 243
+[28-May-2015 01:17:31 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/client/navigationBar.php on line 9
+[28-May-2015 01:17:31 America/Denver] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'xmatchge'@'localhost' (using password: YES) in /home1/xmatchge/public_html/client/alert.php on line 4
+[28-May-2015 01:17:31 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/xmatchge/public_html/client/alert.php on line 5
+[28-May-2015 01:17:31 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/client/cows1.php on line 153
+[28-May-2015 01:17:31 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/client/cows1.php on line 153
+[28-May-2015 01:17:31 America/Denver] PHP Notice:  Undefined variable: i in /home1/xmatchge/public_html/client/cows1.php on line 160
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/client/navigationBar.php on line 9
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 120
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/client/matchFunctions.php on line 134
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/client/matchFunctions.php on line 188
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/client/matchFunctions.php on line 216
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 01:17:33 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/client/dailyActivity.php on line 221
+[28-May-2015 01:17:33 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/xmatchge/public_html/client/dailyActivity.php on line 243
+[28-May-2015 04:22:28 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 37
+[28-May-2015 04:22:28 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 108
+[28-May-2015 04:22:28 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 04:22:28 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 04:22:33 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 04:22:33 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 04:22:43 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/production/client/navigationBar.php on line 9
+[28-May-2015 04:22:43 America/Denver] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'xmatchge'@'localhost' (using password: YES) in /home1/xmatchge/public_html/production/client/alert.php on line 4
+[28-May-2015 04:22:43 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home1/xmatchge/public_html/production/client/alert.php on line 5
+[28-May-2015 04:22:43 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/production/client/cows1.php on line 153
+[28-May-2015 04:22:43 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/production/client/cows1.php on line 153
+[28-May-2015 04:22:43 America/Denver] PHP Notice:  Undefined variable: i in /home1/xmatchge/public_html/production/client/cows1.php on line 160
+[28-May-2015 04:26:06 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 37
+[28-May-2015 04:26:06 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 108
+[28-May-2015 04:26:06 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 04:26:06 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 04:26:14 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 04:26:14 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 04:26:17 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 37
+[28-May-2015 04:26:17 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 108
+[28-May-2015 04:26:17 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 04:26:17 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 04:26:25 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 04:26:25 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 04:26:32 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 37
+[28-May-2015 04:26:32 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 108
+[28-May-2015 04:26:32 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 04:26:32 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 04:30:35 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 37
+[28-May-2015 04:30:35 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 108
+[28-May-2015 04:30:35 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 04:30:35 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 04:32:20 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 04:32:20 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 05:14:25 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 37
+[28-May-2015 05:14:25 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 108
+[28-May-2015 05:14:25 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 05:14:25 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 05:34:48 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 37
+[28-May-2015 05:34:48 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 108
+[28-May-2015 05:34:48 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 05:34:48 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 05:53:20 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 37
+[28-May-2015 05:53:20 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 108
+[28-May-2015 05:53:20 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 05:53:20 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 05:53:26 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 05:53:26 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 05:53:27 America/Denver] PHP Notice:  Undefined index: farm in /home1/xmatchge/public_html/production/client/menuNotUpdate.php on line 12
+[28-May-2015 05:53:30 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 37
+[28-May-2015 05:53:30 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 108
+[28-May-2015 05:53:30 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 05:53:30 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 05:53:35 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 05:53:35 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 07:46:46 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 37
+[28-May-2015 07:46:46 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 108
+[28-May-2015 07:46:46 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 07:46:46 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 07:46:52 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 07:46:52 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 07:46:52 America/Denver] PHP Notice:  Undefined index: farm in /home1/xmatchge/public_html/production/client/menuNotUpdate.php on line 12
+[28-May-2015 07:46:54 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 37
+[28-May-2015 07:46:54 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 108
+[28-May-2015 07:46:54 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 07:46:54 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 07:47:04 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 07:47:04 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 10:01:40 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 10:01:40 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 10:07:55 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/production/client/navigationBar.php on line 9
+[28-May-2015 10:07:55 America/Denver] PHP Notice:  Use of undefined constant selected - assumed 'selected' in /home1/xmatchge/public_html/production/client/settings1.php on line 45
+[28-May-2015 10:07:58 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/production/client/navigationBar.php on line 9
+[28-May-2015 10:07:58 America/Denver] PHP Notice:  Use of undefined constant checked - assumed 'checked' in /home1/xmatchge/public_html/production/client/settings2.php on line 66
+[28-May-2015 10:08:05 America/Denver] PHP Notice:  Undefined index: generalRating in /home1/xmatchge/public_html/production/client/ajax.php on line 147
+[28-May-2015 10:08:05 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/production/client/navigationBar.php on line 9
+[28-May-2015 10:08:05 America/Denver] PHP Notice:  Use of undefined constant checked - assumed 'checked' in /home1/xmatchge/public_html/production/client/settings2.php on line 57
+[28-May-2015 10:20:47 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 37
+[28-May-2015 10:20:47 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 108
+[28-May-2015 10:20:47 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 10:20:47 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 12:50:50 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 37
+[28-May-2015 12:50:50 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 108
+[28-May-2015 12:50:50 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 12:50:50 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111
+[28-May-2015 12:51:10 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 37
+[28-May-2015 12:51:10 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 108
+[28-May-2015 12:51:10 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 109
+[28-May-2015 12:51:10 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/production/client/clientWelcome.php on line 111

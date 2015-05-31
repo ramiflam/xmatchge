@@ -1,0 +1,173 @@
+/******************************************************************************************/
+body{
+position:relative;
+background-color: rgba(248,248,248,1);
+width:100%;margin: 0px;
+font-family: arial;
+
+}
+.beheader{
+    background-color: rgba(65,65,65,1);
+    height:16px;
+}
+.underdetails{
+background-color:white;
+height:1px;
+}
+.header{
+background-color: white;
+width:100%;
+font-size:14px;
+font-family: arial;
+display:inline-block;margin: 0px;
+}
+.header p{
+    display:block;
+}
+
+.sucess{
+display: inline-block;
+background-image: url("/assets/check_mark.png");
+background-repeat: no-repeat;
+background-position:left center;
+float:right;
+/*padding-right:38px;*/
+color:rgba(8,180,18,1);
+}
+.sucess p{
+    display: block;
+    padding-left: 45px;
+    text-align: left;
+    font-size: 16px;
+    line-height:3px;
+    
+}
+p#sucess{
+font-weight: bold;
+padding-top:8px;
+}
+.notsucess{
+display: inline-block;
+background-image: url("/assets/x.png");
+background-repeat: no-repeat;
+background-position:left center;
+float:right;
+padding-right: 13px;
+color:rgba(192,11,20,1);
+}
+.notsucess p{
+    display:block;
+    padding-left: 45px;
+    text-align: left;
+    font-size: 16px;
+    color:rgba(122,16,16,1);
+}
+.notsucess a{
+    display:block;
+    padding-left: 45px;
+    text-align: left;
+    font-size: 13px;
+    color:rgba(122,16,16,1);
+}
+p#update{
+    color: grey;
+    font-size: 12px;
+    line-height:0%;
+}
+.menu{
+ /*padding-left:180px; */
+ display: inline-block;
+ vertical-align:top;
+ /*margin-top:35px;
+ width:82%;*/
+}
+.img{
+display: inline-block;
+padding-right:395px;
+}
+.details{
+background-color:rgba(243,243,243,1);
+height: 25px;
+width: 100%;
+text-align: right;
+padding-top:10px;
+margin-top: -1px;
+}
+.details label{
+   /* padding-right: 38px;*/
+}
+.title{
+    background-color:rgba(248,248,248,1);
+    text-align: center;  
+    font-size: 14px;
+}
+.title img{
+padding-top:25px;}
+p.title1{
+    font-size: 28px;
+line-height: 0%;
+font-weight: bold;}
+p.version{
+font-weight: bold;
+font-size:14px;
+}
+p.copyright{font-size:10px;}
+.circlemenu{
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(75,178,245,1);
+    padding-top:35px;
+    display: inline-block;
+    width:100%;
+    height:270px
+}
+.center{
+width:710px;
+margin:0 auto;
+}
+.circle{
+    background-color: rgba(255,255,255,1); 
+    height: 154px;
+    width: 154px;
+    border-radius:50%;  
+    background-image: url("/assets/daily_activity.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    display: inline-block;
+}
+.circlemenu label
+{color:white;
+font-size: 17px;
+display: inline-block;
+width: 154px;
+font-weight:bold;
+text-align: center;}
+div#manual.circle{
+    background-image: url("/assets/cows2.png");
+}
+div#bulls.circle{
+    
+    background-image: url("/assets/bulls2.png");
+}
+div#settings.circle{
+    
+    background-image: url("/assets/settings.png");
+}
+.part1{
+    display:inline-block;
+    height: 205px;
+    width: 140px;
+    padding-right: 45px;
+}
+div#setting.part1{
+ padding-right:0px;
+}
+.part1 label{
+    padding-top:15px;
+   
+}
+
+div#center2{
+width:710px;
+margin:0 auto;
+}

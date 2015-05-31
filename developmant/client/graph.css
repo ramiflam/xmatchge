@@ -1,0 +1,42 @@
+ul.graph
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+	
+ul.graph li
+{
+	margin-bottom: .5em;
+	padding: .2em;
+	background: #600;
+	color: #fff;
+}
+	
+ul.graph li.percent20
+{
+    background-image: url("/assets/bg.png");
+    background-repeat: repeat-y;
+    background-position:20% 0;
+}
+	
+ul.graph li.percent40
+{
+	    background-image: url("/assets/bg.png");
+    background-repeat: repeat-y;
+    background-position:40% 0;
+}
+	
+ul.graph li.percent60
+{
+    background-image: url("/assets/bg.png");
+    background-repeat: repeat-y;
+    background-position:60% 0;
+}
+	
+ul.graph li.percent80
+{
+    background-image: url("/assets/bg.png");
+    background-repeat: repeat-y;
+    background-position:80% 0;
+}
