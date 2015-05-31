@@ -308,7 +308,7 @@ for ($x = 0; $x <= 20; $x++) { ?>
    <button class="submit" type="button" onClick="history.go(0)" name="submit" value="submit"><?php echo $clearPhrase;?></button>
     <a href="dailyActivity.php?"  style="text-decoration:none;" id="matchHref"><button class="submit" type="button" value="submit" id="match"><?php echo $matchPhrase;?></button></a>
     <button class="submit" type="submit" name="showall" value="<?php if(!isset($_POST['showall'])) {echo 'false';} else {echo $_POST['showall'];}?>" ><?php echo $showPhrase;?></button>
-    <button class="submit" type="button" id="updateDB">Update</button> 
+    <button class="submit" type="button" id="updateDB">Save</button> 
 
 </div>
 

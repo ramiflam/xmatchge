@@ -64,10 +64,13 @@ Xmatch-Genetics new_user </title>
        <div class="sucess">
       
        <p id="sucess"><?php echo $updatePhrase;?></p>
-       <p id="update"><?php echo $lastupdatePhrase;?> 7 <?php echo $daysPhrase;?></p></div>
-       <!--<img src="/assets/x.png" style="width:20px";>-->
-     </div>  
+       <p id="update"><?php echo $lastupdatePhrase;?> 7 <?php echo $daysPhrase;?></p>
 
+       </div>
+             
+     </div>  
+        <a href="clientWelcome.php"> <img src="/assets/x.png" style="width:20px; float:right;";>  </a>  
+</div>
 
 </head>
 <div class="details">

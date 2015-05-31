@@ -343,7 +343,7 @@ $breed=getBreedType2($db,$row["breed"]);
 
      </td>
         <td name="bull_no"><?php echo $row["bull_no"] ;?></td>
-        <td><?php echo $row["bull_foreign_name"] ;?></td>
+        <td  id="name"><?php echo $row["bull_foreign_name"] ;?></td>
         <td><?php echo $breed;?></td>
         <td> <input type="color" value="<?php echo $row["StrawColor"] ;?>"class="color" name="Color"></td>
        <!-- <td>
@@ -423,7 +423,7 @@ $breed=getBreedType2($db,$row["breed"]);
 <div class="button">
 <button class="submit" type="submit" name="current" value="<?php if(!isset($_POST['current']) or $_POST['current']==0) {echo 0;} else {$currentValue = explode(" ", $_POST['current']); print_r ($currentValue[0]-1);} echo ' '; if(isset($_POST['showall'])) {echo 'true';} else if(isset($_POST['current'])) { $currentValue = explode(" ", $_POST['current']);  print_r($currentValue[1]);} else {echo 'false';}?> "><</button>
 <button class="submit" type="submit" name="current" value="<?php if(!isset($_POST['current'])) {echo 1;}  else {$currentValue = explode(" ", $_POST['current']); print_r ($currentValue[0]+1);} echo ' '; if(isset($_POST['showall'])) {echo 'true';} else if(isset($_POST['current'])) { $currentValue = explode(" ", $_POST['current']); print_r($currentValue[1]);} else {echo 'false';}?> ">></button>
-    <button class="submit" type="button" id="updateDB" name="submit">Update</button>
+    <button class="submit" type="button" id="updateDB" name="submit">Save</button>
     <button class="submit" type="submit" onClick="printable()">Print</button>
 </div>
 

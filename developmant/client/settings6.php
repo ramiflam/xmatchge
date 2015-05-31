@@ -43,14 +43,29 @@ $set6_subtitle=getMsg($db, $browserLanguage, 'set2_title');
 </td><td style="vertical-align:top;">
 <div id="semens">
  <h2 class="title6">Semen Provider</h2>
-<input type="checkbox" name="Semen" id="semen" value="geno" checked ><label id="semen"  for="semen"><span></span>Geno</label>
-<input type="checkbox" name="Semen" id="semen1" value="Semex" checked ><label id="semen2"  for="semen1"><span></span>Semex</label><br>
-<input type="checkbox" name="Semen" id="semen8" value="LIC"><label id="semen" for="semen8"><span></span>LIC</label>
-<input type="checkbox" name="Semen" id="semen3" value="Sion"><label id="semen3" for="semen3"><span></span>Sion</label><br>
-<input type="checkbox" name="Semen" id="semen4" value="WWS"><label id="semen" for="semen4"><span></span>WWS</label>
-<input type="checkbox" name="Semen" id="semen5" value="CRV"><label id="semen2" for="semen5"><span></span>CRV</label><br>
-<input type="checkbox" name="Semen" id="semen6" value="ABS"><label id="semen" for="semen6"><span></span>ABS</label>
-<input type="checkbox" name="Semen" id="semen7" value="coopex" checked ><label id="semen7" for="semen7"><span></span>coopex</label><br>
+<input type="checkbox" name="Semen" id="semen" value="geno" checked ><label id="semen"  for="semen"><span><img src="/assets/geno.png"alt="Smlogo" height="30" width="50" style="padding-left: 20px;padding-right:5px;vertical-align:middle;">
+</span></label>
+
+<input type="checkbox" name="Semen" id="semen1" value="Semex" checked ><label id="semen2"  for="semen1"><span>
+<img src="/assets/semex.png"alt="Smlogo" height="30" width="50" style="padding-left: 25px;padding-right:5px;vertical-align:middle;">
+</span></label><br>
+<input type="checkbox" name="Semen" id="semen8" value="LIC"><label id="semen" for="semen8"><span>
+<img src="/assets/LIC.png"alt="Smlogo" height="30" width="50" style="padding-left: 25px;padding-right:5px;vertical-align:middle;">
+</span></label>
+<input type="checkbox" name="Semen" id="semen3" value="Sion"><label id="semen3" for="semen3"><span>
+<img src="/assets/sion.png"alt="Smlogo" height="30" width="50" style="padding-left: 25px;padding-right:5px;vertical-align:middle;">
+</span></label><br>
+<input type="checkbox" name="Semen" id="semen4" value="WWS"><label id="semen" for="semen4"><span>
+
+</span>WWS</label>
+<input type="checkbox" name="Semen" id="semen5" value="CRV"><label id="semen4" for="semen5"><span>
+<img src="/assets/CRV.png"alt="Smlogo" height="30" width="50" style="padding-left: 25px;padding-right:5px;vertical-align:middle;">
+</span></label><br>
+<input type="checkbox" name="Semen" id="semen6" value="ABS"><label id="semen" for="semen6"><span>
+<img src="/assets/ABS.png"alt="Smlogo" height="30" width="50" style="padding-left: 25px;padding-right:5px;vertical-align:middle;">
+</span></label>
+<input type="checkbox" name="Semen" id="semen7" value="coopex" checked ><label id="semen7" for="semen7"><span>
+<img src="/assets/coopex.png"alt="Smlogo" height="30" width="50" style="padding-left: 25px;padding-right:5px;vertical-align:middle;"></span></label><br>
 </div>
 
 </td>
