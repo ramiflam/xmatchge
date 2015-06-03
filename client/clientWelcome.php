@@ -119,7 +119,7 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
     	if($valid) {
 		$userType = getUserType($db, $username);
 		//for development can be access only for admin
-		if( $userType == 'Admin'){
+		if($access == '' or ($access == 'Admin' and $userType == 'Admin')){
 		if ($userType == 'ContryDist' or $userType == 'RegionalDist' or $userType == 'Admin'){
 		  //echo 'validation passed. Redirecting...<br>';
 		  header('location:farm_Select.php');
