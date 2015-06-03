@@ -3659,3 +3659,47 @@
 [03-Jun-2015 02:12:56 America/Denver] PHP Notice:  Undefined index: match_status in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 285
 [03-Jun-2015 02:12:56 America/Denver] PHP Notice:  Undefined index: KG_milk in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 319
 [03-Jun-2015 02:12:56 America/Denver] PHP Notice:  Undefined index: Fertility in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 335
+[03-Jun-2015 02:58:45 America/Denver] PHP Notice:  Undefined variable: db_name in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 7
+[03-Jun-2015 02:58:45 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/xmatchge/development/client/navigationBar.php on line 9
+[03-Jun-2015 02:58:45 America/Denver] PHP Notice:  Trying to get property of non-object in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 188
+[03-Jun-2015 02:58:45 America/Denver] PHP Notice:  Undefined variable: UserDetails in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 117
+[03-Jun-2015 02:58:45 America/Denver] PHP Notice:  Trying to get property of non-object in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 123
+[03-Jun-2015 02:58:45 America/Denver] PHP Notice:  Undefined variable: UserDetails in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 128
+[03-Jun-2015 02:58:45 America/Denver] PHP Notice:  Undefined variable: db_name in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 7
+[03-Jun-2015 02:58:45 America/Denver] PHP Notice:  Trying to get property of non-object in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 188
+[03-Jun-2015 02:58:45 America/Denver] PHP Notice:  Undefined variable: searchNum in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 101
+[03-Jun-2015 02:58:45 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 251
+[03-Jun-2015 02:58:45 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 251
+[03-Jun-2015 02:58:45 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 254
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/xmatchge/development/client/navigationBar.php on line 9
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined variable: UserDetails in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 129
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined variable: searchNum in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 101
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 251
+[03-Jun-2015 03:00:12 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 251
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: match_status in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 285
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: KG_milk in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 319
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: Fertility in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 335
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: match_status in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 285
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: KG_milk in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 319
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: Fertility in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 335
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: match_status in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 285
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: KG_milk in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 319
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: Fertility in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 335
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: match_status in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 285
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: KG_milk in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 319
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: Fertility in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 335
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: match_status in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 285
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: KG_milk in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 319
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: Fertility in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 335
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: match_status in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 285
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: KG_milk in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 319
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: Fertility in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 335
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: match_status in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 285
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: KG_milk in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 319
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: Fertility in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 335
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: match_status in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 285
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: KG_milk in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 319
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: Fertility in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 335
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: match_status in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 285
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: KG_milk in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 319
+[03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: Fertility in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 335

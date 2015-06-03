@@ -1,10 +1,11 @@
 <?php
-
+include "config.php";
 session_start(); 
 
 function getDbConnection()
 {
-   $db = mysqli_connect('localhost','xmatchge','$Dlior)0p','xmatchge_Gen');
+   global $db_name;
+   $db = mysqli_connect('localhost','xmatchge','$Dlior)0p',$db_name);
    mysqli_query($db, "SET NAMES 'utf8'");
    return $db;
 }
