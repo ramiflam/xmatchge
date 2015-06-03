@@ -133,8 +133,8 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
 	}   
 		 		
 	else 
-	       header('location:menuNotUpdate.php');
-		//echo ' User/password does not match <br>';
+	       //header('location:menuNotUpdate.php');
+		echo ' User/password does not match <br>';
 	
    }
  
