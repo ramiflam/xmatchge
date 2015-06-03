@@ -109,6 +109,7 @@ $password =$_POST["fpass"];
 $remember = $_POST['remember'];
 $cookie_name = "farm";
 $cookie_value = $_POST["Farm"];
+global $access;
 setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); 
 
  if($_SERVER['REQUEST_METHOD']=='POST')
