@@ -123,15 +123,26 @@ $row2 = mysqli_fetch_array($result2);
   <tr>
     <th><?php echo $set3_first ?></th>
     <td>
-        <input type="date" name="Bulls_first_insemination_date" required value="<?php $date = explode(' ',$row["Bulls_first_insemination_date"]); echo $date[0] ;?>">
+        <input type="date" name="Bulls_first_insemination_date" required value="<?php $date1 = explode(' ',$row["Bulls_first_insemination_date"]); echo $date1[0] ;?>">
     </td>
  </tr>
+ <?php 
+    $d=$row["Bulls_first_insemination_date"];
+    $d=date_create($d);
+ ?>
+ 
   <tr>
     <th><?php echo $set3_last ?></th>
     <td>
-        <input type="date" name="Bulls_last_insemination_date" value="<?php $date = explode(' ',$row["Bulls_last_insemination_date"]); echo $date[0] ;?>" required>
+        <input type="date" name="Bulls_last_insemination_date" value="<?php $date2 = explode(' ',$row["Bulls_last_insemination_date"]); echo $date2[0] ;?>" required>
     </td>
  </tr>
+ <?php 
+$d1=$row["Bulls_last_insemination_date"];
+$d1=date_create($d1);
+$dif2=date_diff($d,$d1);
+ ?>
+ <tr><td style="";>The difference between both is:<label style="color:red";><?php echo $dif2->format(" %R%a days"); ?> </label></td> </tr>
   <tr>
     <th><?php echo $set3_forbid ?></th>
     <td>
@@ -143,6 +154,10 @@ $row2 = mysqli_fetch_array($result2);
        <div>
  	
 </div>
+<?php 
+$query3="SELECT DATEDIFF('$dateq','$datew') AS DiffDate FROM  `local_cows` WHERE 1";
+$result3 = mysqli_query($db, $query3);
+?>
   <script>
   var flag = 0;
   $(function () {

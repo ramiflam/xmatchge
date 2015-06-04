@@ -22,7 +22,7 @@ foreach ($_GET as $cow_no )
  {
  if( $cow_no!= 'true'){
                 //to display the data until 6 am 
-               // $date=date_default_timezone_set("Israel").date("Ymdhis");
+                //$date=date_default_timezone_set("Israel").date("Ymdhis");
  	  	//$query =" INSERT INTO `daily_insemination_list` (cow_no,date) VALUES (".$cow_no.",".$date.")";
  	  	
 	        $result = mysqli_query($db, $query);

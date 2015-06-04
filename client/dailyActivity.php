@@ -88,7 +88,7 @@ function printstiker(){
 	function erase(e){
 		elm = e.parentNode;
 		var parent =  document.getElementById("tag-wrapper-cows");
-		$('tr:contains('+elm.innerText+')').find('[type=checkbox]').click();
+		$('tr:contains('+elm.innerText+')').find('[type=checkbox]').attr('checked', false);
 		var child =elm;
 		parent.removeChild(child);
 		counter = counter - 1;
@@ -101,7 +101,7 @@ function printstiker(){
         	{
         		obj = document.getElementById("txtcow");
            		textToSend = obj.value; 
-           		$('tr:contains('+textToSend+')').find('[type=checkbox]').click();
+           		$('tr:contains('+textToSend+')').find('[type=checkbox]').attr('checked', true);
 
            		if(obj.value==''){
            			return;

@@ -17,6 +17,7 @@ if (is_ajax()) {
 		$from_insemination= $_POST["from_insemination"];
 		$to_insemination= $_POST["to_insemination"];
 		$limited= $_POST["limited"];
+		$planned= $_POST["planned"];
 		$orderBy= $_POST["Order_by_Fertility"];
 		$user =$_POST["user"];
 		//echo $isActive;
@@ -49,12 +50,15 @@ if (is_ajax()) {
 	  	if(!isset($strawType)){
 	  	$strawType=NULL;
 	  	}
+	  	if(!isset($planned)){
+	  	$planned=-1;
+	  	}
 
-	  	$query ="INSERT INTO `users_bulls_details` (userID, bull_no, match_status ,heifer_status, from_insemination ,to_insemination ,straw_color ,order_by ,limited ,straw_size,straw_type) 
+	  	$query ="INSERT INTO `users_bulls_details` (userID, bull_no, match_status ,heifer_status, from_insemination ,to_insemination ,straw_color ,order_by ,limited ,straw_size,straw_type,planned) 
 VALUES
-   ('$user',$bull_no,$isActive,$heifer_status,$from_insemination,$to_insemination,'$color',$orderBy,$limited,$strawSize,'$strawType')
+   ('$user',$bull_no,$isActive,$heifer_status,$from_insemination,$to_insemination,'$color',$orderBy,$limited,$strawSize,'$strawType',$planned)
 ON DUPLICATE KEY UPDATE 
-   userID='$user', bull_no=$bull_no, match_status=$isActive ,heifer_status=$heifer_status ,from_insemination=$from_insemination ,to_insemination=$to_insemination ,straw_color='$color' ,order_by=$orderBy ,limited=$limited ,straw_size=$strawSize ,straw_type='$strawType' ";
+   userID='$user', bull_no=$bull_no, match_status=$isActive ,heifer_status=$heifer_status ,from_insemination=$from_insemination ,to_insemination=$to_insemination ,straw_color='$color' ,order_by=$orderBy ,limited=$limited ,straw_size=$strawSize ,straw_type='$strawType' ,planned='$planned'";
 	  	//echo $query;
 	        $result = mysqli_query($db, $query);
 	        echo 1;

@@ -125,11 +125,11 @@ function showAll(){
 </div>
 <div class="wrapper">
 <div class="sidebar" id="sidebar">
-<!--
-<input type="text" name="search" id="search" placeholder=" cows Name/Number" onkeypress=" searchKeyPress(event)" searchWord="<?php echo $searchNum['bull_no'] ?>">
-<button class="submit" type="submit" id="find" name="find">Find</button>
--->
 <h1><?php echo $updatePhrase;?></h1>
+<input type="text" name="search" id="search" placeholder=" cows Name/Number" onkeypress=" searchKeyPress(event)" searchWord="<?php echo $searchNum['cow_no'] ?>">
+<button class="submit" type="submit" id="find" name="find">Find</button>
+
+
 
         <table style="width:100%" id="heading" class="scroll">
         <thead>
@@ -150,7 +150,8 @@ function showAll(){
     </tr>
     </thead>
             <?php
-        /*    $_count = 11;
+ $i = 0;
+           $_count = 11;
             if(isset($_POST['current'])) {
             $currentValue = explode(" ", $_POST['current']);
 $offset =($currentValue[0] ) * 11;
@@ -158,8 +159,11 @@ $offset =($currentValue[0] ) * 11;
 else {
 $offset = 0;
 }
+
+ $query="SELECT * FROM `local_cows`";
+
          /*   $count=0;
-            $flag='true';*/
+            $flag='true';
        if(!isset($_POST['showall']) || ($_POST['showall']=='false')){
 	 $query="SELECT * FROM `local_cows` where Farm= '$userfarm' and match_status=1 and sex=2 order by $order limit 11"; // User_Id = '$username' and
         }
@@ -167,7 +171,7 @@ $offset = 0;
         {
          $query="SELECT * FROM `local_cows` where Farm= '$userfarm' order by $order"; // User_Id = '$username' and
         }
-        
+        */
         
       /*  if(isset($_POST['current'])) {
             $currentValue = explode(" ", $_POST['current']);
@@ -175,6 +179,33 @@ $showAll =$currentValue[1];
 }
 */
         //echo  $query;
+       // $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
+     //   $result = mysqli_query($db, $query);
+               // $result_list = array();
+
+if(isset($_POST['current'])) {
+            $currentValue = explode(" ", $_POST['current']);
+$showAll =$currentValue[1];
+}
+
+if(!empty($_REQUEST['search'])) {
+	$search=$_POST['search'];
+	$searchWords= explode(",", $search);
+	
+ 	$query = $query." WHERE cow_no=-789 ";
+ 	foreach ($searchWords as $word){
+ 		$query= $query." OR cow_no=$word";
+ 	}
+
+ 	} else if(isset($_POST['showall']) or $showAll=='true'){
+ 	$query= $query."order by $order   LIMIT $offset, $_count";
+ 	//echo $query;
+	  }
+	  else if(!isset($_POST['showall']) or $showAll=='false')
+	  	{
+	  $query= $query."where Farm= '$userfarm' and match_status=1 and sex=2 order by $order   LIMIT $offset, $_count";
+	  }
+	//echo $query;
         $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
         $result = mysqli_query($db, $query);
                 $result_list = array();
@@ -387,6 +418,19 @@ for ($x = 0; $x <= 20; $x++) { ?>
 		}
   	$("#matchHref").attr("href", "dailyActivity.php?"+query+"&match=true");
     });
+    	if($("#search").attr("searchWord")!='')
+	$('td:contains('+$("#search").attr("searchWord")+')').parent().addClass('chosen');
+  //getInputsByValue($('#search').attr('searchWord')).addClass('chosen');
+  $(function () {
+   var sendToUpdate=[];
+  $("select").change(function() {
+  //alert( "Handler for .change() called." );
+  var found = jQuery.inArray($(this).parent().parent().find('[name=cow_no]').text(), sendToUpdate);
+if (found == -1) {
+  sendToUpdate.push($(this).parent().parent().find('[name=cow_no]').text());
+  }
+});
+ })
  })
    </script>
    <script>

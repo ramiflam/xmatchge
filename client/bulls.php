@@ -167,7 +167,7 @@ $offset = 0;
             $username = $_COOKIE["user"];
   
 
-	 $query="SELECT b.bull_no, bull_name, CVM, KG_ECM, Planned_usage, Actuall_inseminations, Usage_order, General_size, General_udder, Teats_location, Udder_depth, General_legs, Pelvis_stucture, Fat_percentage, Protein_percentage, MGS, PGS, SCC, sire, pic_link, breed,bull_foreign_name,
+	 $query="SELECT b.bull_no, bull_name, CVM, KG_ECM, Actuall_inseminations, Usage_order, General_size, General_udder, Teats_location, Udder_depth, General_legs, Pelvis_stucture, Fat_percentage, Protein_percentage, MGS, PGS, SCC, sire, pic_link, breed,bull_foreign_name,
 CASE WHEN u.match_status!=-1
 AND u.bull_no = b.bull_no
 AND u.userID =  '$username'
@@ -221,7 +221,13 @@ AND u.bull_no = b.bull_no
 AND u.userID =  '$username'
 THEN u.order_by
 ELSE b.Order_by_Fertility
-END AS Order_by_Fertility
+END AS Order_by_Fertility,
+CASE WHEN u.planned!=-1
+AND u.bull_no = b.bull_no
+AND u.userID =  '$username'
+THEN u.planned
+ELSE b.Planned_usage
+END AS Planned_usage
 FROM  `bulls_details` AS b
 LEFT JOIN  `users_bulls_details` AS u ON b.bull_no = u.bull_no ";
 
@@ -235,11 +241,11 @@ if(!empty($_REQUEST['search'])) {
 	$search=$_POST['search'];
 	$searchWords= explode(",", $search);
 	
- 	$query = $query." WHERE b.bull_no=-1 ";
+ 	$query = $query." WHERE (b.bull_no=-1 ";
  	foreach ($searchWords as $word){
  		$query= $query." OR b.bull_no=$word";
  	}
-
+	$query= $query.") AND u.userID = '$username'";
  	} else if(isset($_POST['showall']) or $showAll=='true'){
  	$query= $query."ORDER BY $order Order_by_Fertility, FIELD(breed, 1,39) DESC, breed , bull_no  LIMIT $offset, $_count";
 	  }
@@ -384,7 +390,15 @@ $breed=getBreedType2($db,$row["breed"]);
    <option value="0">No</option>
    <option value="2">Both</option>
    </select></td>
-        <td><?php echo $row["Planned_usage"] ;?></td>
+<td>
+     <select name="planned">
+     <option value="<?php echo $row['Planned_usage'] ;?>"><?php echo $row['Planned_usage'];?></option>
+   <?php 
+   for ($x = 0; $x <= 100; $x+=5) { ?>
+    <option value="<?php echo "$x";?>"><?php echo "$x";?></option>
+    <?php } ?> 
+     </select></td>
+     
          <td><?php echo $row["Planned_usage"] ;?></td>
                  <td>
   <select name="limited">

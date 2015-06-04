@@ -99,8 +99,7 @@ $username =$_POST["fname"];
 <object width="350" height="150" style="margin-top: 5%;">
     <param name="movie" value="/assets/banner1.swf">-->
 </object>
-<!--<img src="/assets/logo.jpg"alt="Smlogo" height="150" width="350" style="margin-top: 5%;">-->
-</div>
+<img src="/assets/XMATCHLOGO.jpg"alt="Smlogo" height="150" width="350" style="margin-top: 5%;">
 
 </body>
 </html>
