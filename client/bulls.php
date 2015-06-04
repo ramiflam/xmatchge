@@ -245,7 +245,7 @@ if(!empty($_REQUEST['search'])) {
 	  }
 	  else if(!isset($_POST['showall']) or $showAll=='false')
 	  	{
-	  $query= $query." WHERE (ISNULL(u.match_status) AND b.match_status=1) OR (u.match_status=1  AND u.userID = 'Avi') ORDER BY $order Order_by_Fertility, FIELD(breed, 1,39) DESC, breed , bull_no LIMIT $offset, $_count";
+	  $query= $query." WHERE (ISNULL(u.match_status) AND b.match_status=1) OR (u.match_status=1  AND u.userID = '$username') ORDER BY $order Order_by_Fertility, FIELD(breed, 1,39) DESC, breed , bull_no LIMIT $offset, $_count";
 	  }
 	echo $query;
         $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
