@@ -4688,3 +4688,81 @@
 [03-Jun-2015 23:58:35 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/xmatchge/development/client/cows1.php on line 178
 [03-Jun-2015 23:58:35 America/Denver] PHP Notice:  Undefined variable: index in /home1/xmatchge/public_html/xmatchge/development/client/cows1.php on line 185
 [03-Jun-2015 23:58:35 America/Denver] PHP Notice:  Undefined variable: count in /home1/xmatchge/public_html/xmatchge/development/client/cows1.php on line 187
+[04-Jun-2015 00:11:13 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/xmatchge/development/client/navigationBar.php on line 9
+[04-Jun-2015 00:11:13 America/Denver] PHP Notice:  Undefined variable: searchNum in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 129
+[04-Jun-2015 00:11:13 America/Denver] PHP Notice:  Undefined variable: showAll in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 200
+[04-Jun-2015 00:11:13 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 208
+[04-Jun-2015 00:11:13 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 208
+[04-Jun-2015 00:11:13 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 211
+[04-Jun-2015 00:11:15 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/xmatchge/development/client/navigationBar.php on line 9
+[04-Jun-2015 00:11:15 America/Denver] PHP Notice:  Undefined variable: searchNum in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 129
+[04-Jun-2015 00:11:15 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 208
+[04-Jun-2015 00:11:15 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 208
+[04-Jun-2015 00:11:15 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 211
+[04-Jun-2015 00:11:17 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/xmatchge/development/client/navigationBar.php on line 9
+[04-Jun-2015 00:11:17 America/Denver] PHP Notice:  Undefined variable: searchNum in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 129
+[04-Jun-2015 00:11:17 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 208
+[04-Jun-2015 00:11:17 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 208
+[04-Jun-2015 00:11:17 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 211
+[04-Jun-2015 00:11:19 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/xmatchge/development/client/navigationBar.php on line 9
+[04-Jun-2015 00:11:19 America/Denver] PHP Notice:  Undefined variable: searchNum in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 129
+[04-Jun-2015 00:11:19 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 208
+[04-Jun-2015 00:11:19 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 208
+[04-Jun-2015 00:11:19 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/xmatchge/development/client/cowws.php on line 211
+[04-Jun-2015 00:12:19 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/xmatchge/development/client/navigationBar.php on line 9
+[04-Jun-2015 00:12:19 America/Denver] PHP Notice:  Undefined variable: UserDetails in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 244
+[04-Jun-2015 00:12:19 America/Denver] PHP Notice:  Undefined variable: query in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 28
+[04-Jun-2015 00:12:19 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 28
+[04-Jun-2015 00:12:29 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/xmatchge/development/client/clientWelcome.php on line 37
+[04-Jun-2015 00:12:29 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/xmatchge/development/client/clientWelcome.php on line 109
+[04-Jun-2015 00:12:29 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/xmatchge/development/client/clientWelcome.php on line 110
+[04-Jun-2015 00:12:29 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/xmatchge/development/client/clientWelcome.php on line 112
+[04-Jun-2015 00:12:31 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/xmatchge/development/client/clientWelcome.php on line 110
+[04-Jun-2015 00:12:31 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/xmatchge/development/client/clientWelcome.php on line 112
+[04-Jun-2015 00:12:45 America/Denver] PHP Notice:  Undefined variable: UserDetails in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 129
+[04-Jun-2015 00:12:52 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/xmatchge/development/client/navigationBar.php on line 9
+[04-Jun-2015 00:12:52 America/Denver] PHP Notice:  Undefined variable: UserDetails in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 129
+[04-Jun-2015 00:12:52 America/Denver] PHP Notice:  Undefined variable: searchNum in /home1/xmatchge/public_html/xmatchge/development/client/cows1.php on line 129
+[04-Jun-2015 00:12:52 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/xmatchge/development/client/cows1.php on line 178
+[04-Jun-2015 00:12:52 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/xmatchge/development/client/cows1.php on line 178
+[04-Jun-2015 00:13:08 America/Denver] PHP Notice:  Undefined variable: UserDetails in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 129
+[04-Jun-2015 00:13:20 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/xmatchge/development/client/navigationBar.php on line 9
+[04-Jun-2015 00:13:20 America/Denver] PHP Notice:  Undefined variable: searchNum in /home1/xmatchge/public_html/xmatchge/development/client/cows1.php on line 129
+[04-Jun-2015 00:13:20 America/Denver] PHP Notice:  Undefined variable: result in /home1/xmatchge/public_html/xmatchge/development/client/cows1.php on line 178
+[04-Jun-2015 00:13:20 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/xmatchge/development/client/cows1.php on line 178
+[04-Jun-2015 00:13:20 America/Denver] PHP Notice:  Undefined variable: index in /home1/xmatchge/public_html/xmatchge/development/client/cows1.php on line 185
+[04-Jun-2015 00:13:20 America/Denver] PHP Notice:  Undefined variable: count in /home1/xmatchge/public_html/xmatchge/development/client/cows1.php on line 187
+[04-Jun-2015 00:13:25 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/xmatchge/development/client/navigationBar.php on line 9
+[04-Jun-2015 00:13:25 America/Denver] PHP Notice:  Undefined variable: query in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 28
+[04-Jun-2015 00:13:25 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 28
+[04-Jun-2015 00:13:25 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 140
+[04-Jun-2015 00:13:25 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 194
+[04-Jun-2015 00:13:26 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 222
+[04-Jun-2015 00:13:26 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 194
+[04-Jun-2015 00:13:26 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 222
+[04-Jun-2015 00:13:26 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 194
+[04-Jun-2015 00:13:26 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 222
+[04-Jun-2015 00:13:26 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 194
+[04-Jun-2015 00:13:26 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 222
+[04-Jun-2015 00:13:26 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 194
+[04-Jun-2015 00:13:26 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 222
+[04-Jun-2015 00:13:26 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 140
+[04-Jun-2015 00:13:26 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 194
+[04-Jun-2015 00:13:26 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 222
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: browserLanguage in /home1/xmatchge/public_html/xmatchge/development/client/navigationBar.php on line 9
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: query in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 28
+[04-Jun-2015 00:13:46 America/Denver] PHP Warning:  mysqli_query(): Empty query in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 28
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 140
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 194
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 222
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 194
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 222
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 194
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 222
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 194
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 222
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 194
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 222
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 140
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: gnBullsInseminationTotal in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 194
+[04-Jun-2015 00:13:46 America/Denver] PHP Notice:  Undefined variable: gnMagicNumber in /home1/xmatchge/public_html/xmatchge/development/client/matchFunctions.php on line 222

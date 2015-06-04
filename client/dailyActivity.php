@@ -218,7 +218,7 @@ foreach ($result_daily_list as $value) {
     </thead>
     <tboby>
     <?php
-    $query="SELECT cow_no,burn_no,lact_no,last_AI_date,group_name,Forced_bull,remark,StrawColor,StrawSize,StrawType,groupe FROM `local_cows`  where match_status=1 and sex=2";
+    $query="SELECT cow_no,burn_no,lact_no,last_AI_date,group_name,Forced_bull,remark,StrawColor,StrawSize,StrawType,groupe FROM `local_cows`  where match_status=1 and sex=2 and Farm='$userfarm'";
     if(isset($_GET["0"])){
 	 	//$query= $query." WHERE ";
 	 	$query= $query." and ( `cow_no` =".$_GET["0"];
@@ -229,7 +229,7 @@ foreach ($result_daily_list as $value) {
 	}
 	$query= $query.")";
 	}
-	//echo $query;
+	echo $query;
      if(!isset($_POST['showall'])){
 	 	//$query= $query." limit 3";
 	 }
