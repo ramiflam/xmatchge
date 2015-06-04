@@ -95,12 +95,13 @@ $username =$_POST["fname"];
 </div>
 <!-- פרסומת בדף הבית-->
 <div id="gif">
+<!--
 <object width="350" height="150" style="margin-top: 5%;">
-    <param name="movie" value="/assets/banner1.swf">
+    <param name="movie" value="/assets/banner1.swf">-->
 </object>
-
+<!--<img src="/assets/logo.jpg"alt="Smlogo" height="150" width="350" style="margin-top: 5%;">-->
 </div>
-<!--<img src="/assets/banner1.swf"alt="Smlogo" height="120" width="250" style="  vertical-align: bottom;">-->
+
 </body>
 </html>
 <?php
