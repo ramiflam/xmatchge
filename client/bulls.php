@@ -247,7 +247,7 @@ if(!empty($_REQUEST['search'])) {
 	  	{
 	  $query= $query." WHERE (ISNULL(u.match_status) AND b.match_status=1) OR (u.match_status=1  AND u.userID = '$username') ORDER BY $order Order_by_Fertility, FIELD(breed, 1,39) DESC, breed , bull_no LIMIT $offset, $_count";
 	  }
-	echo $query;
+	//echo $query;
         $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
         $result = mysqli_query($db, $query);
                 $result_list = array();
