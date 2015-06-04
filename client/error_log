@@ -3703,6 +3703,7 @@
 [03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: match_status in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 285
 [03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: KG_milk in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 319
 [03-Jun-2015 03:00:12 America/Denver] PHP Notice:  Undefined index: Fertility in /home1/xmatchge/public_html/xmatchge/development/client/bulls.php on line 335
+<<<<<<< HEAD
 [03-Jun-2015 03:48:39 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/xmatchge/development/client/clientWelcome.php on line 37
 [03-Jun-2015 03:48:39 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/xmatchge/development/client/clientWelcome.php on line 108
 [03-Jun-2015 03:48:39 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/xmatchge/development/client/clientWelcome.php on line 109
@@ -4313,3 +4314,9 @@
 [03-Jun-2015 23:30:26 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/xmatchge/development/client/cows1.php on line 178
 [03-Jun-2015 23:30:26 America/Denver] PHP Notice:  Undefined variable: index in /home1/xmatchge/public_html/xmatchge/development/client/cows1.php on line 185
 [03-Jun-2015 23:30:26 America/Denver] PHP Notice:  Undefined variable: count in /home1/xmatchge/public_html/xmatchge/development/client/cows1.php on line 187
+=======
+>>>>>>> e6d07c49dc39c10cbb56803f4cee27d2c2bcf3a8
+[03-Jun-2015 23:38:21 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/xmatchge/development/client/clientWelcome.php on line 37
+[03-Jun-2015 23:38:21 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/xmatchge/development/client/clientWelcome.php on line 109
+[03-Jun-2015 23:38:21 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/xmatchge/development/client/clientWelcome.php on line 110
+[03-Jun-2015 23:38:21 America/Denver] PHP Notice:  Undefined index: Farm in /home1/xmatchge/public_html/xmatchge/development/client/clientWelcome.php on line 112
