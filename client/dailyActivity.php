@@ -229,7 +229,7 @@ foreach ($result_daily_list as $value) {
 	}
 	$query= $query.")";
 	}
-	echo $query;
+	//echo $query;
      if(!isset($_POST['showall'])){
 	 	//$query= $query." limit 3";
 	 }
