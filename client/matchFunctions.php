@@ -49,7 +49,8 @@ function gsMatchDailyActivitiesBulls($db, $vrsCurrentCow, $userId,$farm)
 	$bullsCount = 0;
 	$bBullsFound = false;
 	$T=0;
-        $cowQuery = "SELECT * FROM `local_cows` WHERE cow_no='$vrsCurrentCow' and Farm='$farm'  and User_ID='$userId' ;" ;  
+        $cowQuery = "SELECT * FROM `local_cows` WHERE cow_no='$vrsCurrentCow' and Farm='$farm'  and User_ID='$userId' " ;  
+       //echo $cowQuery ;
         $cowResult = mysqli_query($db, $cowQuery ); 
         $num = mysqli_num_rows($cowResult);
           //echo "the result num2 is ".$num;
@@ -63,6 +64,7 @@ function gsMatchDailyActivitiesBulls($db, $vrsCurrentCow, $userId,$farm)
         }
         
         $userSettingsQuery = "SELECT * FROM `user_settings` WHERE user_id='$userId';" ;     
+        //echo $userSettingsQuery ;
         $userSettingsResult = mysqli_query($db, $userSettingsQuery);
         If ($userSettingsResult->num_rows > 0)    {
         $num = mysqli_num_rows($userSettingsResult);
@@ -78,6 +80,7 @@ function gsMatchDailyActivitiesBulls($db, $vrsCurrentCow, $userId,$farm)
         
        // calculate total working cows
         $query = "SELECT * FROM `local_cows` WHERE brd_kg_ecm Is Not Null AND match_status=1;" ;     
+        //echo $query;
         $totalCowResult = mysqli_query($db, $query ); 
         If ($totalCowResult->num_rows > 0)    {
          $num = mysqli_num_rows($totalCowResult );
@@ -98,6 +101,7 @@ function gsMatchDailyActivitiesBulls($db, $vrsCurrentCow, $userId,$farm)
         // get nTotalWorkingCowsLactationAboveMeatBulls from db
         $cboLactationNumber = $userSettingsRow['Meat_bulls_lactation_no'];
         $query= "SELECT * FROM `local_cows` WHERE brd_kg_ecm Is Not Null AND match_status=1 AND lact_no>= '$cboLactationNumber';";
+        //echo $query;
         $result = mysqli_query($db, $query );
          If ($result ->num_rows > 0)    {
          $num = mysqli_num_rows($result );
@@ -137,47 +141,47 @@ $i=0;
  while (($i<2) and ($found<3)){
  //echo "the is is".$i;
  // $bullsQuery="select * FROM `bulls_details` WHERE Match_status=1";
-            $bullsQuery = "SELECT b.bull_no, `bull_name`, `sire`, `PGS`, `MGS`, `Actuall_inseminations`, `Hazday`, `Repetition`, `KG_ECM`, `KG_milk`, `Fertility`, `Fat_percentage`, `KG_protein`, `Protein_percentage`, `SCC`, `General_size`, `General_udder`, `Teats_location`, `Udder_depth`, `General_legs`, `Overall_grade`, `Pelvis_stucture`, `Planned_usage`, `CVM`, `Bull_type`, `Visible`, `Usage_order`, `Breed`, `bull_foreign_no`, `bull_foreign_name`, CASE WHEN u.match_status!=-1 AND u.bull_no = b.bull_no AND u.userID =  '$username' THEN u.match_status ELSE b.Match_status END AS Match_status, CASE WHEN u.heifer_status!=-1 AND u.bull_no = b.bull_no AND u.userID =  '$username' THEN u.heifer_status ELSE b.Heifer_status END AS Heifer_status, 
+            $bullsQuery = "SELECT b.bull_no, `bull_name`, `sire`, `PGS`, `MGS`, `Actuall_inseminations`, `Hazday`, `Repetition`, `KG_ECM`, `KG_milk`, `Fertility`, `Fat_percentage`, `KG_protein`, `Protein_percentage`, `SCC`, `General_size`, `General_udder`, `Teats_location`, `Udder_depth`, `General_legs`, `Overall_grade`, `Pelvis_stucture`, `Planned_usage`, `CVM`, `Bull_type`, `Visible`, `Usage_order`, `Breed`, `bull_foreign_no`, `bull_foreign_name`, CASE WHEN u.match_status!=-1 AND u.bull_no = b.bull_no AND u.userID =  '$userId' THEN u.match_status ELSE b.Match_status END AS Match_status, CASE WHEN u.heifer_status!=-1 AND u.bull_no = b.bull_no AND u.userID =  '$userId' THEN u.heifer_status ELSE b.Heifer_status END AS Heifer_status, 
 CASE WHEN u.from_insemination!=-1
 AND u.bull_no = b.bull_no
-AND u.userID =  '$username'
+AND u.userID =  '$userId'
 THEN u.from_insemination
 ELSE b.From_insemination
 END AS From_insemination, 
 CASE WHEN u.to_insemination!=-1
 AND u.bull_no = b.bull_no
-AND u.userID =  '$username'
+AND u.userID =  '$userId'
 THEN u.to_insemination
 ELSE b.To_insemination
 END AS To_insemination, 
 CASE WHEN u.limited!=-1
 AND u.bull_no = b.bull_no
-AND u.userID =  '$username'
+AND u.userID =  '$userId'
 THEN u.limited
 ELSE b.Limited
 END AS Limited, 
 CASE WHEN u.straw_color!=''
 AND u.bull_no = b.bull_no
-AND u.userID =  '$username'
+AND u.userID =  '$userId'
 THEN u.straw_color
 ELSE b.StrawColor
 END AS StrawColor, 
 CASE WHEN u.straw_size!=-1
 AND u.bull_no = b.bull_no
-AND u.userID =  '$username'
+AND u.userID =  '$userId'
 THEN u.straw_size
 ELSE b.StrawSize
 END AS StrawSize, 
 CASE WHEN u.straw_type!=''
 AND u.bull_no = b.bull_no
-AND u.userID =  '$username'
+AND u.userID =  '$userId'
 THEN u.straw_type
 ELSE b.StrawType
 END AS StrawType, 
 CASE WHEN u.order_by!=-1
 AND u.bull_no = b.bull_no
-AND u.userID =  '$username'
-THEN u.order_by ELSE b.Order_by_Fertility END AS Order_by_Fertility FROM  `bulls_details` AS b LEFT JOIN  `users_bulls_details` AS u ON b.bull_no = u.bull_no WHERE (((ISNULL(u.match_status) AND b.match_status=1)) OR (u.match_status=1  AND u.userID = '$username'))  and Breed = $breedType ORDER BY Order_by_Fertility DESC,Usage_order ASC, Fertility DESC ";
+AND u.userID =  '$userId'
+THEN u.order_by ELSE b.Order_by_Fertility END AS Order_by_Fertility FROM  `bulls_details` AS b LEFT JOIN  `users_bulls_details` AS u ON b.bull_no = u.bull_no WHERE (((ISNULL(u.match_status) AND b.match_status=1)) OR (u.match_status=1  AND u.userID = '$userId'))  and Breed = $breedType ORDER BY Order_by_Fertility DESC,Usage_order ASC, Fertility DESC ";
            //$bullsQuery = "SELECT * FROM `bulls_details` WHERE Match_status=1   ORDER BY Order_by_Fertility DESC,Usage_order ASC, Fertility DESC ;" ; 
              // SELECT * FROM `bulls_details` b, `users_bulls_details` u WHERE ((u.match_status=-1 AND //b.Match_status=1) OR //u.match_status=1 )  and Breed = '0' ORDER BY Order_by_Fertility DESC,Usage_order ASC, Fertility DESC
              //echo  $bullsQuery;
@@ -484,46 +488,46 @@ function bgfCheckSensitivity ($db, $vrsCurrentCow, $vrsCurrentBull,$username)
         	return -1;
         }
               // $bullQuery = "SELECT * FROM `bulls_details` where bull_no='$vrsCurrentBull';" ;     
-             $bullQuery = " SELECT b.bull_no, bull_name, KG_milk, KG_protein, Fertility, CVM, KG_ECM, Planned_usage, Actuall_inseminations, Usage_order, General_size, General_udder, Teats_location, Udder_depth, General_legs, Pelvis_stucture, Fat_percentage, Protein_percentage, MGS, PGS, SCC, sire, breed, Actuall_inseminations, Planned_usage, Repetition, Overall_grade, CASE WHEN u.match_status!=-1 AND u.bull_no = b.bull_no AND u.userID =  '$username' THEN u.match_status ELSE b.Match_status END AS Match_status, CASE WHEN u.heifer_status!=-1 AND u.bull_no = b.bull_no AND u.userID =  '$username' THEN u.heifer_status ELSE b.Heifer_status END AS Heifer_status, 
+             $bullQuery = " SELECT b.bull_no, bull_name, KG_milk, KG_protein, Fertility, CVM, KG_ECM, Planned_usage, Actuall_inseminations, Usage_order, General_size, General_udder, Teats_location, Udder_depth, General_legs, Pelvis_stucture, Fat_percentage, Protein_percentage, MGS, PGS, SCC, sire, breed, Actuall_inseminations, Planned_usage, Repetition, Overall_grade, CASE WHEN u.match_status!=-1 AND u.bull_no = b.bull_no AND u.userID =  '$userId' THEN u.match_status ELSE b.Match_status END AS Match_status, CASE WHEN u.heifer_status!=-1 AND u.bull_no = b.bull_no AND u.userID =  '$userId' THEN u.heifer_status ELSE b.Heifer_status END AS Heifer_status, 
 CASE WHEN u.from_insemination!=-1
 AND u.bull_no = b.bull_no
-AND u.userID =  '$username'
+AND u.userID =  '$userId'
 THEN u.from_insemination
 ELSE b.From_insemination
 END AS From_insemination, 
 CASE WHEN u.to_insemination!=-1
 AND u.bull_no = b.bull_no
-AND u.userID =  '$username'
+AND u.userID =  '$userId'
 THEN u.to_insemination
 ELSE b.To_insemination
 END AS To_insemination, 
 CASE WHEN u.limited!=-1
 AND u.bull_no = b.bull_no
-AND u.userID =  '$username'
+AND u.userID =  '$userId'
 THEN u.limited
 ELSE b.Limited
 END AS Limited, 
 CASE WHEN u.straw_color!=''
 AND u.bull_no = b.bull_no
-AND u.userID =  '$username'
+AND u.userID =  '$userId'
 THEN u.straw_color
 ELSE b.StrawColor
 END AS StrawColor, 
 CASE WHEN u.straw_size!=-1
 AND u.bull_no = b.bull_no
-AND u.userID =  '$username'
+AND u.userID =  '$userId'
 THEN u.straw_size
 ELSE b.StrawSize
 END AS StrawSize, 
 CASE WHEN u.straw_type!=''
 AND u.bull_no = b.bull_no
-AND u.userID =  '$username'
+AND u.userID =  '$userId'
 THEN u.straw_type
 ELSE b.StrawType
 END AS StrawType, 
 CASE WHEN u.order_by!=-1
 AND u.bull_no = b.bull_no
-AND u.userID =  '$username'
+AND u.userID =  '$userId'
 THEN u.order_by ELSE b.Order_by_Fertility END AS Order_by_Fertility FROM  `bulls_details` AS b LEFT JOIN  `users_bulls_details` AS u ON b.bull_no = u.bull_no WHERE b.bull_no='$vrsCurrentBull' ";
 //echo $bullQuery;
             $bullsResult = mysqli_query($db, $bullQuery);

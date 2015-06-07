@@ -245,9 +245,9 @@ if(!empty($_REQUEST['search'])) {
  	foreach ($searchWords as $word){
  		$query= $query." OR b.bull_no=$word";
  	}
-	$query= $query.") AND u.userID = '$username'";
+	$query= $query.") AND (u.userID = '$username' OR ISNULL(u.userID))";
  	} else if(isset($_POST['showall']) or $showAll=='true'){
- 	$query= $query."ORDER BY $order Order_by_Fertility, FIELD(breed, 1,39) DESC, breed , bull_no  LIMIT $offset, $_count";
+ 	$query= $query." WHERE u.userID = '$username' OR ISNULL(u.userID) ORDER BY $order Order_by_Fertility, FIELD(breed, 1,39) DESC, breed , bull_no  LIMIT $offset, $_count";
 	  }
 	  else if(!isset($_POST['showall']) or $showAll=='false')
 	  	{
@@ -402,7 +402,7 @@ $breed=getBreedType2($db,$row["breed"]);
          <td><?php echo $row["Planned_usage"] ;?></td>
                  <td>
   <select name="limited">
-  <option value="<?php echo $row['Limited'] ;?>"><?php  if($row['Limited']==1){echo'Yes';} else {echo'No';};?></option>
+  <option value="<?php if($row['Limited']==1){echo 1;} else {echo 0;};?>"><?php  if($row['Limited']==1){echo 'Yes';} else {echo 'No';};?></option>
   <option value="1">Yes</option>
   <option value="0">No</option>
   </select></td>
@@ -523,6 +523,7 @@ if (found == -1) {
  	    	user: $('#bullsForm').attr('user'), 	    	
  	    	bull_no: sendToUpdate[i],
  	    	active: $("#bullsForm").find('[bull='+sendToUpdate[i]+']').find('[name=active]').val(),
+ 	    	planned: $("#bullsForm").find('[bull='+sendToUpdate[i]+']').find('[name=planned]').val(),
  	    	//StrawSize: $("#bullsForm").find('[bull='+sendToUpdate[i]+']').find('[name=StrawSize]').val(),
                 StrawType: $("#bullsForm").find('[bull='+sendToUpdate[i]+']').find('[name=StrawType]').val(),
                 Color: $("#bullsForm").find('[bull='+sendToUpdate[i]+']').find('[name=Color]').val(),

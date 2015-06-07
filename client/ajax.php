@@ -41,7 +41,7 @@ if (is_ajax()) {
 	  	if(!isset($orderBy) or $orderBy==""){
 	  	$orderBy=-1;
 	  	}
-	  	if(!isset($limited)){
+	  	if(!isset($limited) or $limited==""){
 	  	$limited=-1;
 	  	}
 	  	if(!isset($strawSize)){
@@ -58,8 +58,8 @@ if (is_ajax()) {
 VALUES
    ('$user',$bull_no,$isActive,$heifer_status,$from_insemination,$to_insemination,'$color',$orderBy,$limited,$strawSize,'$strawType',$planned)
 ON DUPLICATE KEY UPDATE 
-   userID='$user', bull_no=$bull_no, match_status=$isActive ,heifer_status=$heifer_status ,from_insemination=$from_insemination ,to_insemination=$to_insemination ,straw_color='$color' ,order_by=$orderBy ,limited=$limited ,straw_size=$strawSize ,straw_type='$strawType' ,planned='$planned'";
-	  	//echo $query;
+   userID='$user', bull_no=$bull_no, match_status=$isActive ,heifer_status=$heifer_status ,from_insemination=$from_insemination ,to_insemination=$to_insemination ,straw_color='$color' ,order_by=$orderBy ,limited=$limited ,straw_size=$strawSize ,straw_type='$strawType' ,planned=$planned";
+	  	echo $query;
 	        $result = mysqli_query($db, $query);
 	        echo 1;
 	

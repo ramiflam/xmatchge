@@ -70,7 +70,7 @@ $username =$_POST["fname"];
 <li>
     <span class=<?php echo $class ;?>> <input type="password" name="fpass" required placeholder="<?php echo $passwordPhrase; ?>" ></span>
 </li>
-<a class="forget" id="forget"href="#"><?php echo $forgotPhrase; ?></a>
+<a class="forget" id="forget"href="forgot.php"><?php echo $forgotPhrase; ?></a>
 
 <!--
 <li>
