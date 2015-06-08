@@ -181,7 +181,7 @@ END AS StrawType,
 CASE WHEN u.order_by!=-1
 AND u.bull_no = b.bull_no
 AND u.userID =  '$userId'
-THEN u.order_by ELSE b.Order_by_Fertility END AS Order_by_Fertility FROM  `bulls_details` AS b LEFT JOIN  `users_bulls_details` AS u ON b.bull_no = u.bull_no WHERE (((ISNULL(u.match_status) AND b.match_status=1)) OR (u.match_status=1  AND u.userID = '$userId'))  and Breed = $breedType ORDER BY Order_by_Fertility DESC,Usage_order ASC, Fertility DESC ";
+THEN u.order_by ELSE b.Order_by_Fertility END AS Order_by_Fertility FROM  `bulls_details` AS b LEFT JOIN  `users_bulls_details` AS u ON b.bull_no = u.bull_no WHERE ((('$userId' NOT IN (select userID from `users_bulls_details` where b.bull_no = bull_no) AND b.match_status=1)) OR (u.match_status=1  AND u.userID = '$userId'))  and Breed = $breedType ORDER BY Order_by_Fertility DESC,Usage_order ASC, Fertility DESC ";
            //$bullsQuery = "SELECT * FROM `bulls_details` WHERE Match_status=1   ORDER BY Order_by_Fertility DESC,Usage_order ASC, Fertility DESC ;" ; 
              // SELECT * FROM `bulls_details` b, `users_bulls_details` u WHERE ((u.match_status=-1 AND //b.Match_status=1) OR //u.match_status=1 )  and Breed = '0' ORDER BY Order_by_Fertility DESC,Usage_order ASC, Fertility DESC
              //echo  $bullsQuery;

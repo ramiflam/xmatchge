@@ -245,9 +245,9 @@ if(!empty($_REQUEST['search'])) {
  	foreach ($searchWords as $word){
  		$query= $query." OR b.bull_no=$word";
  	}
-	$query= $query.") AND (u.userID = '$username' OR ISNULL(u.userID))";
+	$query= $query.") AND (u.userID = '$username' OR '$username' NOT IN (select userID from `users_bulls_details` where $word = bull_no))";
  	} else if(isset($_POST['showall']) or $showAll=='true'){
- 	$query= $query." WHERE u.userID = '$username' OR ISNULL(u.userID) ORDER BY $order Order_by_Fertility, FIELD(breed, 1,39) DESC, breed , bull_no  LIMIT $offset, $_count";
+ 	$query= $query." WHERE u.userID = '$username' OR '$username' NOT IN (select userID from `users_bulls_details` where b.bull_no = bull_no) ORDER BY $order Order_by_Fertility, FIELD(breed, 1,39) DESC, breed , bull_no  LIMIT $offset, $_count";
 	  }
 	  else if(!isset($_POST['showall']) or $showAll=='false')
 	  	{
