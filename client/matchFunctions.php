@@ -583,7 +583,7 @@ THEN u.order_by ELSE b.Order_by_Fertility END AS Order_by_Fertility FROM  `bulls
       	}}
       	else {
       	$dKGMilk =9999;
-      	echo "milk 4";
+      	//echo "milk 4";
       	     }
 
       	// next check is dependent in original VB code on frmMain.chkMatchProductionFertility.Value  (if it is checked)
