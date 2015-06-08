@@ -63,7 +63,7 @@ function gsMatchDailyActivitiesBulls($db, $vrsCurrentCow, $userId,$farm)
         	echo "hi3";
         }
         
-        $userSettingsQuery = "SELECT * FROM `user_settings` WHERE user_id='$userId';" ;     
+        $userSettingsQuery = "SELECT * FROM `user_settings` WHERE user_id='$userId' and FarmName='$farm';" ;     
         //echo $userSettingsQuery ;
         $userSettingsResult = mysqli_query($db, $userSettingsQuery);
         If ($userSettingsResult->num_rows > 0)    {
@@ -79,7 +79,7 @@ function gsMatchDailyActivitiesBulls($db, $vrsCurrentCow, $userId,$farm)
         $bullsCount = 0;
         
        // calculate total working cows
-        $query = "SELECT * FROM `local_cows` WHERE brd_kg_ecm Is Not Null AND match_status=1;" ;     
+        $query = "SELECT * FROM `local_cows` WHERE brd_kg_ecm Is Not Null AND match_status=1 and Farm='$farm';" ;     
         //echo $query;
         $totalCowResult = mysqli_query($db, $query ); 
         If ($totalCowResult->num_rows > 0)    {
@@ -100,7 +100,7 @@ function gsMatchDailyActivitiesBulls($db, $vrsCurrentCow, $userId,$farm)
         
         // get nTotalWorkingCowsLactationAboveMeatBulls from db
         $cboLactationNumber = $userSettingsRow['Meat_bulls_lactation_no'];
-        $query= "SELECT * FROM `local_cows` WHERE brd_kg_ecm Is Not Null AND match_status=1 AND lact_no>= '$cboLactationNumber';";
+        $query= "SELECT * FROM `local_cows` WHERE brd_kg_ecm Is Not Null AND match_status=1 AND lact_no>= '$cboLactationNumber' and Farm='$farm';";
         //echo $query;
         $result = mysqli_query($db, $query );
          If ($result ->num_rows > 0)    {
@@ -208,7 +208,7 @@ THEN u.order_by ELSE b.Order_by_Fertility END AS Order_by_Fertility FROM  `bulls
                if (($gnBullsInseminationTotal == 0) or $B) {
                    
                    if (($bullRow['Planned_usage'] > 0) and ($bullRow['Match_status'] == 1)) {
-                     $B = (! bgfCheckForConsanguinity($db, $vrsCurrentCow, $bullRow));
+                     $B = (! bgfCheckForConsanguinity($db, $vrsCurrentCow, $bullRow,$farm));
                   //  echo "pop".$B;
                      if ($B) {
                    //  echo "<br>hi4";
@@ -218,15 +218,15 @@ THEN u.order_by ELSE b.Order_by_Fertility END AS Order_by_Fertility FROM  `bulls
                      if ($B) {
                     //  echo "<br>hi4".$B;
                         $B = ($bullRow['Heifer_status'] == 0) and ($cowRow['lact_no'] > 0);
-                        $B = $B Or (($bullRow['Heifer_status'] == 1) and ($cowRow['lact_no'] == 0));
-                        $B = $B Or ($bullRow['Heifer_status'] == 2);
+                        $B = ($B Or (($bullRow['Heifer_status'] == 1) and ($cowRow['lact_no'] == 0)));
+                        $B = ($B Or ($bullRow['Heifer_status'] == 2));
                       //  echo " the cow num isppone".$B;
                         if ($B==1) {
                      //   echo " the cow num ispptwo".$i;
                            If ($bullRow['Repetition'] > $gnMagicNumber) {
                            if($i==0){
                             $vrsCurrentBull=$bullRow['bull_no'];
-                            $B = bgfCheckSensitivity($db,$vrsCurrentCow,$vrsCurrentBull,$userId);
+                            $B = bgfCheckSensitivity($db,$vrsCurrentCow,$vrsCurrentBull,$userId,$farm);
                              }
                               if ($B==1) {
                               // echo "<br>the b  ".$B."the bull num is".$bullRow['bull_no'];
@@ -359,7 +359,7 @@ function getMGSBreed($db, $cowRow)
        return  $breedType;
 } // getBullBreedPerProgram
 //echo "the bull breed per program is".$breedType;
-function bgfCheckForConsanguinity($db, $vrsCurrentCow, $bullRow)    
+function bgfCheckForConsanguinity($db, $vrsCurrentCow, $bullRow,$farm)    
 {
         
 	// No need to read bull record - it is passed as parameter
@@ -373,7 +373,7 @@ function bgfCheckForConsanguinity($db, $vrsCurrentCow, $bullRow)
         	return -1;
         }
         ***/
-        $cowQuery = "SELECT * FROM `local_cows` WHERE cow_no='$vrsCurrentCow';" ;     
+        $cowQuery = "SELECT * FROM `local_cows` WHERE cow_no='$vrsCurrentCow' and Farm='$farm';" ;     
         $cowResult = mysqli_query($db, $cowQuery );
         If ($cowResult ->num_rows > 0)    {
         	$cowRow = mysqli_fetch_assoc($cowResult );
@@ -460,12 +460,12 @@ function bgfCheckForConsanguinity($db, $vrsCurrentCow, $bullRow)
 	return 0;
 }
 // bgfCheckForConsanguinity
-function bgfCheckSensitivity ($db, $vrsCurrentCow, $vrsCurrentBull,$username)    
+function bgfCheckSensitivity ($db, $vrsCurrentCow, $vrsCurrentBull,$username,$farm)    
 {
        // $vrsCurrentBull='5464';
       // $vrsCurrentCow='1239';
        
-        $cowQuery = "SELECT * FROM `local_cows` WHERE cow_no='$vrsCurrentCow';" ;     
+        $cowQuery = "SELECT * FROM `local_cows` WHERE cow_no='$vrsCurrentCow' and Farm='$farm';" ;     
         $cowResult = mysqli_query($db, $cowQuery );
        // echo "test db ";
        // print_r($cowResult);
@@ -554,7 +554,7 @@ THEN u.order_by ELSE b.Order_by_Fertility END AS Order_by_Fertility FROM  `bulls
   	}
 ****/
     	// rest of check happends if $nPelvis2 == 2(So I put it in a comment only to check)
-   	$Query = "SELECT * FROM `user_settings` WHERE user_id='$username';" ;     
+   	$Query = "SELECT * FROM `user_settings` WHERE user_id='$username' and FarmName='$farm';" ;     
         $Result = mysqli_query($db, $Query);
         If ($Result)
         {
