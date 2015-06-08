@@ -27,10 +27,10 @@ Xmatch-Genetics new_user </title>
 //$query = "SELECT * FROM `users_details`"; 
 $type = getUserType($db,$username);
 if($type!='Admin'){
-$query = "SELECT * FROM `farms_to_users` WHERE user_name='$username'";
+$query = "SELECT * FROM `farms_to_users` fu LEFT JOIN  `farms` AS f ON f.farm_name = fu.farm_name WHERE user_name='$username'";
 $result = mysqli_query($db, $query);
 } else {
-$query = "SELECT DISTINCT(farm_name) FROM `farms_to_users` ";
+$query = "SELECT DISTINCT(fu.farm_name), pic_link FROM `farms_to_users` fu LEFT JOIN  `farms` AS f ON f.farm_name = fu.farm_name";
 $result = mysqli_query($db, $query);
 }
 ?>
@@ -40,7 +40,7 @@ $result = mysqli_query($db, $query);
 while($fetch_options = mysqli_fetch_array($result)) { //Loop all the options retrieved from the query
 ?>
  <!--Added Id for Options Element -->
- <div class="single-farm"><?php echo $fetch_options['farm_name']; ?></div>
+ <div class="single-farm" style="<?php if($fetch_options['pic_link']!='') {echo 'background: url('.$fetch_options['pic_link'].') no-repeat;background-size: 200px;background-position: center 0px;';} else {echo 'background: url(/assets/cows2.png) no-repeat;background-size: 200px;background-position: center 0px;';} ?>"><?php echo $fetch_options['farm_name']; ?></div>
 <!--<option value ="<?php echo $fetch_options['farm_name']; ?>"><?php echo $fetch_options['farm_name']; ?></option>--><!--Echo out options-->
 <?php } ?>
 <!-- </select> -->

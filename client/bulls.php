@@ -495,6 +495,13 @@ if (found == -1) {
   sendToUpdate.push($(this).parent().parent().find('[name=bull_no]').text());
   }
 });
+  $("input").change(function() {
+  //alert( "Handler for .change() called." );
+  var found = jQuery.inArray($(this).parent().parent().find('[name=bull_no]').text(), sendToUpdate);
+if (found == -1) {
+  sendToUpdate.push($(this).parent().parent().find('[name=bull_no]').text());
+  }
+});
  //function updateDB()
   $('#updateDB').click( function(){
  
