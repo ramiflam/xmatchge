@@ -1,6 +1,10 @@
 <?php
 include "settings.php";
+if(isset($_COOKIE["farm"])){
 $userfarm=$_COOKIE["farm"];
+} else {
+$userfarm=getUserFarm ($db, $username);
+}
 $userName=  getUserFamily($db, $username);
 $userNumber=  getUserNumber($db, $username);
 $userLoc=  getUserLocation($db, $username);

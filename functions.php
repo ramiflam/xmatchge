@@ -5,7 +5,8 @@ session_start();
 function getDbConnection()
 {
    global $db_name;
-   $db = mysqli_connect('localhost','xmatchge','$Dlior)0p',$db_name);
+   global $dbPass;
+   $db = mysqli_connect('localhost','xmatchge', $dbPass, $db_name);
    mysqli_query($db, "SET NAMES 'utf8'");
    return $db;
 }
