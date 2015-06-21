@@ -7,7 +7,7 @@ return;
 }
 
 //print_r($_FILES);
-$target_path = 'uploads/';
+$target_path = '../../uploads/';
 $uploadFileName = $_FILES['fileToUpload']['name']; 
 $message="SORRY, NOT FILE SELECTED.";
     //Checks if a file is selected
@@ -107,7 +107,8 @@ REPLACE INTO TABLE `Herdbook ISR1115`
 FIELDS TERMINATED BY ',' 
 LINES TERMINATED BY '\\n'
 IGNORE 1 LINES
-(bull_no,bull_name_heb,intebull_no,bull_name_en,sire_isr_no,breed_code_isr,brd_milk,brd_fat_pre,brd_prot_pre,SCC,ECM,body_size,udder,feet_and_legs,teat_replacmenat,udder_dept,MGS_no_ISR,daughter_fertilty,CVM,active_sion,clving_easy_maternal);";
+(bull_no,bull_name_heb,intebull_no,bull_name_en,sire_isr_no,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,breed_code_isr,@dummy,@dummy,@dummy,brd_milk,@dummy,brd_fat_pre,@dummy,brd_prot_pre,SCC,ECM,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,clving_easy_paternal,@dummy,@dummy,body_size,@dummy,udder,feet_and_legs,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,teat_replacmenat,@dummy,udder_dept,@dummy,@dummy,MGS_no_ISR,@dummy,@dummy,daughter_fertilty,@dummy,@dummy,@dummy,@dummy,CVM,@dummy,@dummy,@dummy,active_sion,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy)";
+echo $query;
 mysqli_query($db,$query);
 
 $query =" UPDATE  `Herdbook ISR1115`
@@ -218,7 +219,7 @@ $query = "UPDATE  `Herdbook ISR1115` AS i,  `add_to_nor` AS n
 SET i.clving_easy_maternal =i.clving_easy_maternal + n.david_adjust
 WHERE n.trait='clving_easy_maternal' AND (SUBSTR(i.intebull_no,1,3))='NOR';";
 mysqli_query($db,$query);
-/*
+
 
 $query = "truncate `bulls_details`;";
 mysqli_query($db,$query);
@@ -234,7 +235,7 @@ WHERE i.bull_no=b.bull_no;";
 mysqli_query($db,$query);
 
 $query = "UPDATE `bulls_details` SET `strawType`='Regular'";
-mysqli_query($db,$query);*/
+mysqli_query($db,$query);
      
        // if ($result)
        // {

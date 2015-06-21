@@ -166,6 +166,7 @@ text-align:left;
 }
 tr{
 	height:33px;
+	  cursor: pointer;
 }
 
 tr:nth-child(odd){

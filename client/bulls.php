@@ -46,7 +46,7 @@ else
 <head>
     <meta http-equiv="Content-Type" content="text/html/php" charset='utf-8' >
     <link rel="stylesheet" type="text/css" href="bulls.css" />
-
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 </head>
 <div class="content">
     <ul>
@@ -59,6 +59,41 @@ else
 <body>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
+google.load('visualization', '1', {packages: ['corechart', 'bar']});
+google.setOnLoadCallback(drawRightY);
+
+function drawRightY() {
+      var data = google.visualization.arrayToDataTable([
+        ['City', '2010 Population', '2000 Population'],
+        ['New York City, NY', 8175000, 8008000],
+        ['Los Angeles, CA', 3792000, 3694000],
+        ['Chicago, IL', 2695000, 2896000],
+        ['Houston, TX', 2099000, 1953000],
+        ['Philadelphia, PA', 1526000, 1517000]
+      ]);
+
+      var options = {
+        chart: {
+          title: 'Population of Largest U.S. Cities',
+          subtitle: 'Based on most recent and previous census data'
+        },
+        hAxis: {
+          title: 'Total Population',
+          minValue: 0,
+        },
+        vAxis: {
+          title: 'City'
+        },
+        bars: 'horizontal',
+        axes: {
+          y: {
+            0: {side: 'right'}
+          }
+        }
+      };
+      var material = new google.charts.Bar(document.getElementById('chart_div'));
+      material.draw(data, options);
+    }
 function showAll(){                               
 	//if(document.myform.showall.value=='true'){
 	//document.myform.showall.value = 'false';
@@ -73,10 +108,10 @@ function showAll(){
 $(document).ready(function() {
 //$(".information").hide();
   // Bind click event to a link
-  $(".bull_pic").click(function(e) {
-    e.preventDefault();
+  $("tr").click(function(e) {
+    //e.preventDefault();
     //  Show my popup with slide effect, this can be a simple .show() or .fadeToggle()
-    $(this).parent().find('[class=information]').toggle();
+    $(this).find('[class=information]').show();
   /*  $(".cow_pic).toggle();*/
   });
   // Cancel the mouseup event in the popup
@@ -87,10 +122,10 @@ $(document).ready(function() {
   // Bind mouseup event to all the document
   $(document).mouseup(function(e) {
     // Check if the click is outside the popup
-   // if($(e.target).parents("#information").length==0 && !$(e.target).is("#information")) {
+    if(!$(e.target).is("#information")) {
       // Hide the popup
      $(".information").hide();
-   // }
+    }
 });
 });
 </script>
@@ -167,7 +202,7 @@ $offset = 0;
             $username = $_COOKIE["user"];
   
 
-	 $query="SELECT b.bull_no, bull_name, CVM, KG_ECM, Actuall_inseminations, Usage_order, General_size, General_udder, Teats_location, Udder_depth, General_legs, Pelvis_stucture, Fat_percentage, Protein_percentage, MGS, PGS, SCC, sire, pic_link, breed,bull_foreign_name,
+	 $query="SELECT b.bull_no, bull_name, CVM, KG_ECM, Actuall_inseminations, Usage_order, General_size, General_udder, Teats_location, Udder_depth, General_legs, Pelvis_stucture, Fat_percentage, Protein_percentage, MGS, PGS, SCC, sire, pic_link, breed,bull_foreign_name, KG_milk, Fertility,
 CASE WHEN u.match_status!=-1
 AND u.bull_no = b.bull_no
 AND u.userID =  '$username'
@@ -262,19 +297,23 @@ if(!empty($_REQUEST['search'])) {
 $result_list[] = $row;
 $bull_no=$row["bull_no"];
 $breed=getBreedType2($db,$row["breed"]);
+if($breed=='NR') $bullImage = '../assets/nrf bulls.jpg'; else if($breed=='HO') $bullImage = '../assets/holstein bulls.jpg';else if($breed=='BS') $bullImage = '../assets/brownswiss-web-1.jpg'; else if($breed=='SM') $bullImage = '../assets/simmental01.jpg'; else if($breed=='JE') $bullImage = '../assets/jersey-web-1.jpg'; else if($breed=='FL') $bullImage = '../assets/flv bulls.jpg'; else $bullImage = '../assets/iconcow.jpg';
 ?>
 <tr name="tr"  index='<?php echo $i++?>' bull='<?php echo $row["bull_no"] ;?>'>
         <td id="pic"><!--<input type="checkbox" name="checkbox" value="">-->
-        <img class="bull_pic" src="<?php if($breed=='NR') echo '/assets/norwred3.jpg'; else if($breed=='HO') echo '/assets/holstein-web-1.jpg';else if($breed=='BS') echo '/assets/brownswiss-web-1.jpg'; else if($breed=='SM') echo '/assets/simmental01.jpg'; else if($breed=='JE') echo '/assets/jersey-web-1.jpg'; else echo '/assets/iconcow.jpg'; ?>" height="30" width="38">
+        <img class="bull_pic" src="<?php echo $bullImage; ?>" height="30" width="38">
 
              <div id="information" class="information"> 
              
 	<div class="tooltip_title">GENERAL INFORMATION</div>
-	<div class="tooltip_pic"></div>
+	<div class="tooltip_pic" style="background:url('<?php echo $bullImage; ?>') no-repeat;background-size: 155px auto;background-position: 50%;"></div>
 	<div class="tooltip_info1">
 		<div class="tooltip_col1">
 			<div>
 				<?php echo $bull1; ?>: <span><?php echo $row["bull_no"] ;?></span>
+			</div>
+			<div>
+				Bull Name: <span><?php echo $row["bull_foreign_name"] ;?></span>
 			</div>
 		</div>
 		<div class="tooltip_col2">
@@ -288,7 +327,7 @@ $breed=getBreedType2($db,$row["breed"]);
 				<?php echo $popup_MGS; ?> <span><?php echo $row["MGS"] ;?></span>
 			</div>
 			<div>
-				<?php echo $popup_active; ?> <span><?php  if($row['match_status']==1){echo'Yes';}else{echo'No';};?></span>	
+				<?php echo $popup_active; ?> <span><?php  if($row['Match_status']==1){echo'Yes';} else{echo'No';};?></span>	
 			</div>
 		</div>
 	</div>
@@ -313,9 +352,6 @@ $breed=getBreedType2($db,$row["breed"]);
 				<?php echo $set2_juris5; ?> <span><?php echo $row["General_legs"] ;?></span>
 			</div>
 
-			<div>
-				<?php echo $set2_juris7; ?> <span><?php echo $row["Fat_percentage"] ;?></span>
-			</div>
 		</div>
 		<div class="tooltip_col2">
 		<div class="tooltip_sectititle">
@@ -343,6 +379,7 @@ $breed=getBreedType2($db,$row["breed"]);
 						<div>
 				<?php echo $set2_juris6;?> <span><?php echo $row["Pelvis_stucture"] ;?></span>
 			</div>
+			<div id="chart_div"><div>
 		</div>
 	</div>
 	

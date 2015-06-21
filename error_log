@@ -176,3 +176,15 @@
 [28-May-2015 02:23:36 America/Denver] PHP Notice:  Undefined variable: UserDetails in /home1/xmatchge/public_html/functions.php on line 254
 [04-Jun-2015 03:09:24 America/Denver] PHP Warning:  include(): Failed opening 'matchFunctions.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home1/xmatchge/public_html/xmatchge/development/DeleteDailyList.php on line 4
 [04-Jun-2015 03:09:24 America/Denver] PHP Fatal error:  Call to undefined function getDbConnection() in /home1/xmatchge/public_html/xmatchge/development/DeleteDailyList.php on line 6
+[18-Jun-2015 04:02:25 America/Denver] PHP Warning:  move_uploaded_file(uploads/herdbook israel - bulls ISR (1).csv): failed to open stream: No such file or directory in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 47
+[18-Jun-2015 04:02:25 America/Denver] PHP Warning:  move_uploaded_file(): Unable to move '/var/tmp/phpPuY1as' to 'uploads/herdbook israel - bulls ISR (1).csv' in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 47
+[18-Jun-2015 05:08:56 America/Denver] PHP Warning:  move_uploaded_file(uploads/herdbook israel - bulls ISR (1).csv): failed to open stream: No such file or directory in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 47
+[18-Jun-2015 05:08:56 America/Denver] PHP Warning:  move_uploaded_file(): Unable to move '/var/tmp/phpvEi6KX' to 'uploads/herdbook israel - bulls ISR (1).csv' in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 47
+[18-Jun-2015 05:11:33 America/Denver] PHP Warning:  move_uploaded_file(uploads/herdbook israel - bulls ISR (1).csv): failed to open stream: No such file or directory in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 47
+[18-Jun-2015 05:11:33 America/Denver] PHP Warning:  move_uploaded_file(): Unable to move '/var/tmp/phpNURVCq' to 'uploads/herdbook israel - bulls ISR (1).csv' in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 47
+[18-Jun-2015 05:15:15 America/Denver] PHP Warning:  move_uploaded_file(../../../uploads/herdbook israel - bulls ISR (1).csv): failed to open stream: No such file or directory in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 47
+[18-Jun-2015 05:15:15 America/Denver] PHP Warning:  move_uploaded_file(): Unable to move '/var/tmp/php55Q2fN' to '../../../uploads/herdbook israel - bulls ISR (1).csv' in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 47
+[18-Jun-2015 05:17:04 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 262
+[18-Jun-2015 05:17:04 America/Denver] PHP Notice:  Undefined variable: UserDetails in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 245
+[18-Jun-2015 05:17:04 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 267
+[18-Jun-2015 05:17:04 America/Denver] PHP Notice:  Undefined variable: UserDetails in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 256

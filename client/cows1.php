@@ -73,24 +73,24 @@ $("#cow_pic").click(function (e) {
 $(document).ready(function() {
 $(".information").hide();
   // Bind click event to a link
-  $(".cow_pic").click(function(e) {
-    e.preventDefault();
+  $("tr").click(function(e) {
+    //e.preventDefault();
     //  Show my popup with slide effect, this can be a simple .show() or .fadeToggle()
-    $(this).parent().find('[class=information]').toggle();
+    $(this).find('[class=information]').show();
   /*  $(".cow_pic).toggle();*/
   });
   // Cancel the mouseup event in the popup
   $("#information").mouseup(function() {
     return false
   });
-  
+
   // Bind mouseup event to all the document
   $(document).mouseup(function(e) {
     // Check if the click is outside the popup
-   // if($(e.target).parents("#information").length==0 && !$(e.target).is("#information")) {
+    if( !$(e.target).is("#information")) {
       // Hide the popup
      $(".information").hide();
-   // }
+    }
 });
 });
 
@@ -224,7 +224,7 @@ $breed=getBreedType($db,$row['sire']);
 <tbody>
 <tr index='<?php echo $index?>'>
 <td id="pic" >
-     <input type="checkbox" name="checkbox" value="" class="checkbox"><img class="cow_pic" src="<?php if($breed=='NR') echo '/assets/norwred3.jpg'; else if($breed=='HO') echo '/assets/holstein-web-1.jpg';else if($breed=='BS') echo '/assets/brownswiss-web-1.jpg'; else if($breed=='SM') echo '/assets/simmental01.jpg'; else if($breed=='JE') echo '/assets/jersey-web-1.jpg'; else echo '/assets/iconcow.jpg'; ?>" height="30" width="38">
+     <input type="checkbox" name="checkbox" value="" class="checkbox"><img class="cow_pic" src="<?php if($breed=='NR') echo '../assets/nrf cow.jpg'; else if($breed=='HO') echo '../assets/holstein cow.jpg';else if($breed=='BS') echo '../assets/brownswiss-web-1.jpg'; else if($breed=='SM') echo '../assets/simmental01.jpg'; else if($breed=='JE') echo '../assets/jersey-web-1.jpg';  else if($breed=='FL') echo '../assets/flv cow.jpg'; else echo '/assets/iconcow.jpg'; ?>" height="30" width="38">
      <div id="information" class="information">
 
 	<div class="tooltip_title">GENERAL INFORMATION</div>
@@ -271,36 +271,32 @@ $breed=getBreedType($db,$row['sire']);
 			<div>
 				 <?php echo $set2_juris5; ?> <span><?php echo $row["brd_legs"] ;?></span>
 			</div>
-
-			<div>
-				<?php echo $set2_juris7; ?> <span><?php echo $row["brd_general_size"] ;?></span>
-			</div>
 		</div>
 		<div class="tooltip_col2">
 			  <div class="tooltip_sectititle">
 				<?php echo $set2_subtitle2 ?> 
 			</div>
 			<div>
-				<?php echo $set2_manufacture1;?> <span><?php echo $row["brd_milk_kg"] ;?></span>
+				<?php echo $set2_manufacture1;?> <span><?php echo round($row["brd_milk_kg"]) ;?></span>
 			</div>
 			<div>
-				<?php echo $set2_manufacture2;?> <span><?php echo $row["brd_fat_pre"] ;?></span>
+				<?php echo $set2_manufacture2;?> <span><?php echo round($row["brd_fat_pre"]) ;?></span>
 			</div>
 			<div>
-				<?php echo $set2_manufacture3;?> <span><?php echo $row["brd_prot_pre"] ;?></span>
+				<?php echo $set2_manufacture3;?> <span><?php echo round($row["brd_prot_pre"]) ;?></span>
 			</div>
 			
 	  <div class="tooltip_sectititle">
 				<?php echo $set2_subtitle3 ?> 
 			</div>
 			<div>
-				<?php echo $set2_manufacture4;?> <span><?php echo $row["brd_SCC"] ;?></span>
+				<?php echo $set2_manufacture4;?> <span><?php echo round($row["brd_SCC"]) ;?></span>
 			</div>
 			<div>
-				<?php echo $set2_manufacture5;?> <span><?php echo $row["brd_dau_fertilty"] ;?></span>
+				<?php echo $set2_manufacture5;?> <span><?php echo round($row["brd_dau_fertilty"]) ;?></span>
 			</div>
 						<div>
-				<?php echo $set2_juris6;?> <span><?php echo $row["brd_Ramp_stucture"] ;?></span>
+				<?php echo $set2_juris6;?> <span><?php echo round($row["brd_Ramp_stucture"]) ;?></span>
 			</div>
 		</div>
 	</div>
@@ -310,7 +306,7 @@ $breed=getBreedType($db,$row['sire']);
      </td>
      <td name="cow_no" class="cow_no"><?php echo $row["cow_no"] ;?></td>
   <!--   <td><?php echo $row["burn_no"] ;?></td> -->
-     <td><?php echo $row["Genetic_defect"] ;?></td>
+     <td><?php if($row["Genetic_defect"] == 0) {echo "Free" ;} else {echo "CVM";}?></td>
      <td><?php echo $row["brd_dau_fertilty"] ;?></td>
      <td>
 <select name="lactno" id="lactno" class="lactno">
