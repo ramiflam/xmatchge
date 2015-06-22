@@ -328,7 +328,7 @@ label#selected {
 .tooltip_pic{
 	width: 100%;
 	height: 24%;
-	background: url("/assets/cow.jpg") no-repeat;
+	
   background-size: 155px auto;
   background-position: 50%;
   border-bottom: 1px solid grey;

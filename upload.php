@@ -6,6 +6,7 @@ echo '<p>connection failed</p>';
 return;
 }
 
+echo $_POST["farmName"];
 //print_r($_FILES);
 $target_path = '../../uploads/';
 $uploadFileName = $_FILES['fileToUpload']['name']; 
@@ -70,6 +71,7 @@ if($uploadOk){
 		     if($_GET["bulls"]){
 		     updateBulls($db);
 		     } else {
+		     updateCows($db);
 		      echo '##############';
 		     }
 		   }
@@ -106,7 +108,6 @@ $query ="LOAD DATA LOCAL INFILE '$target_path'
 REPLACE INTO TABLE `Herdbook ISR1115`
 FIELDS TERMINATED BY ',' 
 LINES TERMINATED BY '\\n'
-IGNORE 1 LINES
 (bull_no,bull_name_heb,intebull_no,bull_name_en,sire_isr_no,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,breed_code_isr,@dummy,@dummy,@dummy,brd_milk,@dummy,brd_fat_pre,@dummy,brd_prot_pre,SCC,ECM,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,clving_easy_paternal,@dummy,@dummy,body_size,@dummy,udder,feet_and_legs,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,teat_replacmenat,@dummy,udder_dept,@dummy,@dummy,MGS_no_ISR,@dummy,@dummy,daughter_fertilty,@dummy,@dummy,@dummy,@dummy,CVM,@dummy,@dummy,@dummy,active_sion,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy)";
 echo $query;
 mysqli_query($db,$query);
@@ -256,26 +257,59 @@ mysqli_query($db,$query);
      // {
      // echo"...you are not succeed .....-:(<br><br><br>";
      // }
+
+}
+}
+
+function updateCows($db){
+$sql="SELECT * FROM  `file_audit` WHERE RunStatus =  'NotRun' AND tableName='local_cows'";
+$result = mysqli_query($db,$sql);
+
+$resultArr = mysqli_fetch_array($result);
+$target_path = $resultArr["FilePath"].$resultArr["FileName"];
+echo $target_path;
+
+if($target_path!=''){
+
+$username=$_COOKIE["user"];
+$farmName=$_POST["farmName"];
+
 if(file_exists($target_path)){
- echo "the file exist ";
-
- $farm=getUserFarm($db,$username);
- echo "the file exist  $farm";
-echo "the farm name is ".$farm." ";
- $sql="UPDATE local_cows SET Farm='$farm' " ;
-$result2 = mysqli_query($db,$sql);  
- $user_ID=getUserId($db,$username);
-echo "the user id is ".$user_ID." ";
- $sql="UPDATE local_cows SET  User_ID='$user_ID' " ;
-$result2 = mysqli_query($db,$sql);  
-}
-
- else
-{
-
-echo "the file not exist ";
- 
-}
+	 echo"the file exist "; 
+	 
+	$sql="DELETE FROM `local_cows` WHERE User_Id=$username and Farm=$farmName";
+	$result = mysqli_query($db,$sql);
+	
+	$query ="LOAD DATA LOCAL INFILE '$target_path'
+	REPLACE INTO TABLE local_cows
+	FIELDS TERMINATED BY ',' 
+	LINES TERMINATED BY '\\r\\n'
+	IGNORE 1 LINES
+	(last_milk_per_day,AI_bull_ISR_number,last_SCC,AI_type,not_for_AI,exp_Calving_date,now_at_milk,preg,lact_no,	match_status,barach,groupe,group_name,cull_date,enter_way,breed,MGS,sex,cow_name	,tag_color,no_tag,burn_no,government_no,		sire,Live_sire,computer_no,cow_no,computer_mom,avg_milk_last_10_days,avg_milkig_time_in_last_10_days,brd_milk_kg	,brd_fat_kg,brd_prot_kg,brd_fat_pre,brd_prot_pre,brd_SCC,brd_ECM,brd_udder,brd_legs,brd_milk_mom,brd_fat_kg_mom,	brd_prot_mom,	brd_fat_pre_mom,brd_prot_pre_mom,brd_SCC_mom,brd_ecm_mom,brd_tpi_mom,brd_udder_mom,brd_legs_mom,	brd_milk_sire,brd_fat_kg_sire,	brd_prot_kg_sire,brd_fat_pre_sire,brd_prot_pre_sire,brd_SCC_sire,brd_ecm_sire,brd_tpi_sire,brd_udder_sire,brd_legs_sire,	brd_dau_fertilty,brd_still_birth,brd_calvig_easy,TPI,BirthDate,exit_way,exit_reason,exiy_weight,price_per_kg,exit_price,	bayer,	calving_date,dry_date,last_dhi_date,no_dhi_after_calving,pl_milk_kg,last_AI_date	,pl_Fat_kg,pl_prot_kg,pl_laktuz_miz,	adjust_milk_kg,adjust_fat_kg,adjust_prot_kg,mom_no,mom_name,DIM,days_in_preg,bayer_name,bayer_farm_name,days_after_AI,	days_till_next_calving,days_till_dry,enter_whight,wining_wheight,growth_rate,growth_rate_total,days_after_dry,	BCS_date_after_calvig,total_wight,BCS_pick_milk_date,BCS_pick_milk,BCS_dry_date,BCS_dry,BCS_half_dry_date,	BCS_half_dry,avg_milk,avg_ecm,wested_days_AI,open_days,rest_days,SCC_calc1,ECM_total_at_lact,ecm_according_the_heard,	no_of_milking_by_day,last_DHI_date2,last_heating_date,last_abortion,adjust_ecm,edjust_ecm_prev_lact,adjust_prot_kg_prev_lact,	adjust_milk_prev_lact,adjust_fat_kg_prev_lact,DIM_prev_lact,mate_1,inseminator_name,highet,exp_milk_kg_305,exp_fat_kg_305,	exp_ecm_305,exp_prot_kg,match_bull,exp_exm_305,age_by_month,adjust_ecm2,feed_lot,days_till_dry2,rep,AI_time,fat_pre_DHI,	prot_pre_DHI,supply,pl_prot_pre,efect_preg_date,pl_milk,highet_date,last_calving_days_in_dry,for_cull,pl_fat_pre,preg2,PGS,	date_molk_day,last_calvig_date,fatprot,last_milk1,unknown,last_whight,last_wheight_date,enter_date,enter_last_date,	days_in_last_group,unknown2,last_se,birth_month,whight1,whight2,whight3,whight4,whight5,whight6,whight7,whight8,whight_rate1	,whight_rate2,whight_rate3,	whight_rate4,whight_rate5,whight_rate6,whight_rate7,whight_rate8,whight_date1,whight_date2,whight_date3,	whight_date4,	whight_date5,whight_date6,whight_date7,whight_date8,date_pick_milk,kg_at_pick,bying_price,	unknown3,last_vet,last_vet_diagnosis,sorting,vac_date,vac_drug,last_gov_no,age_in_1_lact,	persistence_1,persistence_1_2,no_live_bull,live_bulld_fate,colestrom_value1,colestrom_value2,refractometers_value,remark	) set User_Id='$username',Farm='$farmName';";
+	  $result = mysqli_query($db,$query);      
+	        If ($result)
+	        {
+	        echo "thanksssssss succeed!!!!!!!!!<br>";
+	        $numrpt = mysqli_num_rows($result); 
+	        print_r($result);
+	        echo "The data updated!!!!!!!!!<br>";  
+	        $sql="UPDATE `file_audit` SET RunStatus = 'Run' WHERE FileName='".$resultArr["FileName"]."'";
+	        echo $sql;
+		$result = mysqli_query($db,$sql);
+	        }
+	     else
+	      {
+	      echo"...you are not succeed .....-:(<br><br><br>";
+	      }
+	
+	}
+	 else
+	{
+	
+	echo"the file not exist ";
+	 
+	}
+	
 }
 }
 

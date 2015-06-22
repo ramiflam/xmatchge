@@ -188,3 +188,56 @@
 [18-Jun-2015 05:17:04 America/Denver] PHP Notice:  Undefined variable: UserDetails in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 245
 [18-Jun-2015 05:17:04 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 267
 [18-Jun-2015 05:17:04 America/Denver] PHP Notice:  Undefined variable: UserDetails in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 256
+[20-Jun-2015 23:40:32 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 32
+[20-Jun-2015 23:40:32 America/Denver] PHP Notice:  Undefined index: remember_me in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 57
+[20-Jun-2015 23:40:32 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 83
+[20-Jun-2015 23:40:32 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 84
+[20-Jun-2015 23:40:32 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 85
+[20-Jun-2015 23:40:35 America/Denver] PHP Notice:  Undefined index: remember_me in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 57
+[20-Jun-2015 23:40:35 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 85
+[20-Jun-2015 23:42:51 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 261
+[20-Jun-2015 23:42:51 America/Denver] PHP Notice:  Undefined variable: UserDetails in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 245
+[20-Jun-2015 23:42:51 America/Denver] PHP Notice:  Undefined variable: username in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 266
+[20-Jun-2015 23:42:51 America/Denver] PHP Notice:  Undefined variable: UserDetails in /home1/xmatchge/public_html/xmatchge/development/functions.php on line 256
+[21-Jun-2015 10:42:57 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 32
+[21-Jun-2015 10:42:57 America/Denver] PHP Notice:  Undefined index: remember_me in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 57
+[21-Jun-2015 10:42:57 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 83
+[21-Jun-2015 10:42:57 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 84
+[21-Jun-2015 10:42:57 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 85
+[21-Jun-2015 10:45:08 America/Denver] PHP Notice:  Undefined index: remember_me in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 57
+[21-Jun-2015 10:45:08 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 85
+[21-Jun-2015 10:52:15 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 32
+[21-Jun-2015 10:52:15 America/Denver] PHP Notice:  Undefined index: remember_me in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 57
+[21-Jun-2015 10:52:15 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 83
+[21-Jun-2015 10:52:15 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 84
+[21-Jun-2015 10:52:15 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 85
+[22-Jun-2015 00:14:33 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 32
+[22-Jun-2015 00:14:33 America/Denver] PHP Notice:  Undefined index: remember_me in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 57
+[22-Jun-2015 00:14:33 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 83
+[22-Jun-2015 00:14:33 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 84
+[22-Jun-2015 00:14:33 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 85
+[22-Jun-2015 00:14:35 America/Denver] PHP Notice:  Undefined index: remember_me in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 57
+[22-Jun-2015 00:14:35 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 85
+[22-Jun-2015 00:16:39 America/Denver] PHP Notice:  Undefined index: bulls in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 50
+[22-Jun-2015 00:56:27 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 328
+[22-Jun-2015 01:00:43 America/Denver] PHP Notice:  Undefined index: bulls in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 50
+[22-Jun-2015 01:00:43 America/Denver] PHP Notice:  Undefined variable: db in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 265
+[22-Jun-2015 01:00:43 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 265
+[22-Jun-2015 01:00:43 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 267
+[22-Jun-2015 01:07:02 America/Denver] PHP Notice:  Undefined index: bulls in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 50
+[22-Jun-2015 01:07:02 America/Denver] PHP Notice:  Undefined index: farmName in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 274
+[22-Jun-2015 01:07:03 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 292
+[22-Jun-2015 01:24:18 America/Denver] PHP Notice:  Undefined index: farmName in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 9
+[22-Jun-2015 01:24:18 America/Denver] PHP Notice:  Undefined index: bulls in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 51
+[22-Jun-2015 01:24:18 America/Denver] PHP Notice:  Undefined index: farmName in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 275
+[22-Jun-2015 01:24:18 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 293
+[22-Jun-2015 01:27:48 America/Denver] PHP Notice:  Undefined index: farmName in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 9
+[22-Jun-2015 01:32:05 America/Denver] PHP Notice:  Undefined index: farmName in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 9
+[22-Jun-2015 01:32:05 America/Denver] PHP Notice:  Undefined index: bulls in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 51
+[22-Jun-2015 01:32:06 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 293
+[22-Jun-2015 01:37:50 America/Denver] PHP Notice:  Undefined index: bulls in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 51
+[22-Jun-2015 01:37:50 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 293
+[22-Jun-2015 01:42:57 America/Denver] PHP Notice:  Undefined index: bulls in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 51
+[22-Jun-2015 01:42:57 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 293
+[22-Jun-2015 01:46:54 America/Denver] PHP Notice:  Undefined index: bulls in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 51
+[22-Jun-2015 01:46:54 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 293

@@ -218,17 +218,18 @@ $j=0;
 $count=$count+1;
 $breed=getBreedType($db,$row['sire']); 
  $result_list=ForcedBull($db,$username);
+if($breed=='NR') $cowImg  = '../assets/nrf cow.jpg'; else if($breed=='HO') $cowImg ='../assets/holstein cow.jpg';else if($breed=='BS') $cowImg ='../assets/brownswiss-web-1.jpg'; else if($breed=='SM') $cowImg ='../assets/simmental01.jpg'; else if($breed=='JE') $cowImg ='../assets/jersey-web-1.jpg';  else if($breed=='FL') $cowImg ='../assets/flv cow.jpg'; else $cowImg ='/assets/iconcow.jpg';
  //echo "the result is";
  //print_r($result_list);
 ?>
 <tbody>
 <tr index='<?php echo $index?>'>
 <td id="pic" >
-     <input type="checkbox" name="checkbox" value="" class="checkbox"><img class="cow_pic" src="<?php if($breed=='NR') echo '../assets/nrf cow.jpg'; else if($breed=='HO') echo '../assets/holstein cow.jpg';else if($breed=='BS') echo '../assets/brownswiss-web-1.jpg'; else if($breed=='SM') echo '../assets/simmental01.jpg'; else if($breed=='JE') echo '../assets/jersey-web-1.jpg';  else if($breed=='FL') echo '../assets/flv cow.jpg'; else echo '/assets/iconcow.jpg'; ?>" height="30" width="38">
+     <input type="checkbox" name="checkbox" value="" class="checkbox"><img class="cow_pic" src="<?php  echo $cowImg ?>" height="30" width="38">
      <div id="information" class="information">
 
 	<div class="tooltip_title">GENERAL INFORMATION</div>
-	<div class="tooltip_pic"></div>
+	<div class="tooltip_pic" style="background:url('<?php echo $cowImg; ?>') no-repeat;background-size: 155px auto;background-position: 50%;"></div>
 	<div class="tooltip_info1">
 		<div class="tooltip_col1">
 
