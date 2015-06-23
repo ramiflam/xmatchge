@@ -125,7 +125,7 @@ p.copyright{font-size:10px;}
     height:270px
 }
 .center{
-width:730px;
+width:925px;
 margin:0 auto;
 }
 .circle{
@@ -152,9 +152,11 @@ div#bulls.circle{
     
     background-image: url("/assets/bulls2.png");
 }
-div#settings.circle{
-    
+div#settings.circle{   
     background-image: url("/assets/settings.png");
+}
+div#tank.circle {
+  background-image: url("../assets/tank.png");
 }
 .part1{
     display:inline-block;
@@ -162,11 +164,18 @@ div#settings.circle{
     width: 140px;
     padding-right: 45px;
 }
-div#setting.part1{
+div#tank.part1{
  padding-right:0px;
 }
+div#tank.part1 lable{
+  width: 160px;
+  }
 .part1 label{
     padding-top:15px;
+   
+}
+.part1#tank label{
+    width:188px;
    
 }
 

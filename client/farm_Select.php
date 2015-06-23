@@ -1,4 +1,4 @@
-<?php
+<?php 
 include '../functions.php';
 include '../home.html';
 $db=getDbConnection();
@@ -7,6 +7,7 @@ echo '<p>connection failed</p>';}
 $username=$_COOKIE["user"];
 ?>
 <html>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <body>
 <head>
     <link rel="stylesheet" type="text/css" href="main.css" />
@@ -32,12 +33,14 @@ $result = mysqli_query($db, $query);
 } else {
 $query = "SELECT DISTINCT(fu.farm_name), pic_link FROM `farms_to_users` fu LEFT JOIN  `farms` AS f ON f.farm_name = fu.farm_name";
 $result = mysqli_query($db, $query);
+
 }
 ?>
 <!--<select required name="select_a_farm"><option selected disabled value=" "> select_a_farm:</option>-->
 <a href="menu.php"  style="text-decoration:none;" id="creatHref"></a>
 <?php
 while($fetch_options = mysqli_fetch_array($result)) { //Loop all the options retrieved from the query
+//echo json_encode($fetch_options);
 ?>
  <!--Added Id for Options Element -->
  <div class="single-farm" style="<?php if($fetch_options['pic_link']!='') {echo 'background: url('.$fetch_options['pic_link'].') no-repeat;background-size: 200px;background-position: center 0px;';} else {echo 'background: url(/assets/cows2.png) no-repeat;background-size: 200px;background-position: center 0px;';} ?>"><?php echo $fetch_options['farm_name']; ?></div>

@@ -91,20 +91,31 @@ Xmatch-Genetics new_user </title>
 </div>
 <div class="circlemenu">
 <div class="center">
-    <div class="part1">  <a href="dailyActivity.php" ><div class="circle">
-      </div>
-            <label><?php echo $dailyPhrase;?></label></a></div>
-        <div class="part1"><a href="cows1.php"><div class="circle"id="manual" >
-                </div></a>
-        <label><?php echo $cowsPhrase;?></label></div>
-    <div class="part1"><a href="bulls.php" > <div class="circle" id="bulls">
-                 </div></a>
-        <label><?php echo $bullsPhrase;?>                     
-        </label></div>
-            <div id="setting" class="part1">  <a href="settings1.php" ><div class="circle" id="settings">
-      </div>
-            <label><?php echo $settingsPhrase;?></label></a></div>
+    <div class="part1">
+        <a href="dailyActivity.php"><div class="circle">
             </div>
+            <label><?php echo $dailyPhrase;?></label></a>
+    </div>
+    <div class="part1"><a href="cows1.php"><div class="circle" id="manual">
+            </div></a>
+        <label><?php echo $cowsPhrase;?></label></div>
+    <div class="part1">
+        <a href="bulls.php"> <div class="circle" id="bulls">
+            </div></a>
+        <label><?php echo $bullsPhrase;?>
+        </label></div>
+    <div class="part1">
+        <a href="settings1.php"><div class="circle" id="settings">
+            </div>
+            <label><?php echo $settingsPhrase;?></label></a>
+    </div>
+    <div id="tank" class="part1">
+        <div class="circle" id="tank">
+            </div></a>
+        <label><?php echo 'STOCK MANAGEMENT';?></label>
+    </div>
+</div>
+</div>
 
 </body>
 </html>

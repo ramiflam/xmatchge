@@ -32,6 +32,13 @@ Xmatch-Genetics new_user </title>
 </form>
 <br><br>
 <tr>
+<form action="new_farm.php">
+<td>Create a new farm&nbsp;:</td><td><input type="submit" value="New farm"></td>
+</tr>
+</pre>
+</form>
+<br><br>
+<tr>
 <form action="settings.php">
 <td>settings......&nbsp;:</td><td><input type="submit" value="settings"></td>
 </tr>
