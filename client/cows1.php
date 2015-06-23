@@ -198,8 +198,8 @@ if(!empty($_REQUEST['search'])) {
  	}
 
  	} else if(isset($_POST['showall']) or $showAll=='true'){
- 	$query= $query."order by $order   LIMIT $offset, $_count";
- 	//echo $query;
+ 	$query= $query." where Farm= '$userfarm' order by $order   LIMIT $offset, $_count";
+ 	echo $query;
 	  }
 	  else if(!isset($_POST['showall']) or $showAll=='false')
 	  	{

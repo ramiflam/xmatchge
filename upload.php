@@ -292,7 +292,8 @@ if(file_exists($target_path)){
 	        echo "thanksssssss succeed!!!!!!!!!<br>";
 	        $numrpt = mysqli_num_rows($result); 
 	        print_r($result);
-	        echo "The data updated!!!!!!!!!<br>";  
+	        echo "The data updated!!!!!!!!!<br>";
+	        CommonFeatures4Points($db);  
 	        $sql="UPDATE `file_audit` SET RunStatus = 'Run' WHERE FileName='".$resultArr["FileName"]."'";
 	        echo $sql;
 		$result = mysqli_query($db,$sql);
@@ -313,4 +314,175 @@ if(file_exists($target_path)){
 }
 }
 
+function CommonFeatures4Points($db)
+{      
+$username=$_COOKIE["user"];
+$farmName=$_POST["farmName"];
+
+         $query="SELECT * FROM `local_cows` where User_Id='$username' and Farm='$farmName'";
+         $result = mysqli_query($db, $query);
+         $result_list = array();
+         while($row = mysqli_fetch_array($result)) {
+         $result_list[] = $row;
+         
+}
+   foreach($result_list as $row) {
+     $currentCow=$row['cow_no'];
+     $currentSire=$row['sire'];
+     $currentMGS=$row['MGS'];
+     
+
+     $query="UPDATE  local_cows AS c,  `STV_per_traits_per_base` AS s
+SET c.brd_milk_kg =c.brd_milk_kg/s.STV*4 +100 WHERE s.Traits='milk[kg]' AND (
+(c.brd_milk_kg/s.STV*4 +100)>60 OR (c.brd_milk_kg/s.STV*4 +100)<160) AND c.cow_no='$currentCow' AND User_Id='$username' and Farm='$farmName';";
+   $result = mysqli_query($db, $query); 
+   $result_num=mysqli_affected_rows($db);
+    if($result_num==0)
+    {
+      exit("alert!!! you can't continue ask expert!!!!(milk)");
+    }
+   
+  else{echo "<br>the rusult num rows is".$result_num;}
+       $query="UPDATE  local_cows AS c,  `STV_per_traits_per_base` AS s
+    SET c.brd_fat_pre=c.brd_fat_pre/s.STV*4 +100 WHERE s.Traits='fat_percentage' AND (
+(c.brd_fat_pre/s.STV*4 +100)>60 OR (c.brd_fat_pre/s.STV*4 +100)<160) AND c.cow_no='$currentCow' AND User_Id='$username' and Farm='$farmName';";
+   $result = mysqli_query($db, $query); 
+   $result_num=mysqli_affected_rows($db);
+    if($result_num==0)
+    {
+      exit("alert!!! you can't continue ask expert!!!!(fat pre)");
+    } 
+   else{echo "<br>the rusult num rows is".$result_num;}
+       $query="UPDATE  local_cows AS c,  `STV_per_traits_per_base` AS s
+SET c.brd_prot_pre=c.brd_prot_pre/s.STV*4 +100 WHERE s.Traits='protein_percentage'  AND
+((c.brd_prot_pre/s.STV*4 +100)>60 AND (c.brd_prot_pre/s.STV*4 +100)<160) AND c.cow_no='$currentCow' AND User_Id='$username' and Farm='$farmName';";
+   $result = mysqli_query($db, $query); 
+   $result_num=mysqli_affected_rows($db);
+    if($result_num==0)
+    {
+      exit("alert!!! you can't continue ask expert!!!!(protein pre)");
+    }
+else{echo "<br>the rusult num rows is".$result_num;}
+       $query="UPDATE  local_cows AS c,  `STV_per_traits_per_base` AS s
+SET c.brd_dau_fertilty=c.brd_dau_fertilty/s.STV*4 +100 WHERE s.Traits='fertility' AND
+((c.brd_dau_fertilty/s.STV*4 +100)>60 AND (c.brd_dau_fertilty/s.STV*4 +100)<160)AND c.cow_no='$currentCow' AND User_Id='$username' and Farm='$farmName';";
+   $result = mysqli_query($db, $query); 
+   $result_num=mysqli_affected_rows($db);
+    if($result_num==0)
+    {
+      exit("alert!!! you can't continue ask expert!!!!(fertility)");
+    }
+    else{echo "<br>the rusult num rows is".$result_num;}
+
+
+       $query="UPDATE  local_cows AS c,  `STV_per_traits_per_base` AS s
+SET c.brd_SCC=c.brd_SCC/s.STV*4 +100 WHERE s.Traits='SCC'  AND
+((c.brd_SCC/s.STV*4 +100)>60 AND (c.brd_SCC/s.STV*4 +100)<160)AND c.cow_no='$currentCow' AND User_Id='$username' and Farm='$farmName';";
+   $result = mysqli_query($db, $query); 
+   $result_num=mysqli_affected_rows($db);
+    if($result_num==0)
+    {
+      exit("alert!!! you can't continue ask expert!!!!(SCC)");
+    }
+else{echo "<br>the result num rows is".$result_num;}
+
+       $query="UPDATE  local_cows AS c,  `STV_per_traits_per_base` AS s
+SET c.brd_Ramp_stucture=c.brd_Ramp_stucture/s.STV*4 +100 WHERE s.Traits='MCE'  AND
+((c.brd_Ramp_stucture/s.STV*4 +100)>60 AND (c.brd_Ramp_stucture/s.STV*4 +100)<160)AND c.cow_no='$currentCow' AND User_Id='$username' and Farm='$farmName';";
+   $result = mysqli_query($db, $query); 
+   $result_num=mysqli_affected_rows($db);
+    if($result_num==0)
+    {
+      exit("alert!!! you can't continue ask expert!!!!(MCE)");
+    }
+  else{echo "<br>the result num rows is".$result_num;}
+
+
+$sql="select BreedCode_2_ch,bull_no,breed_code_isr from `table_breeds` AS TB, `bull_file_israel` AS BI where BI.breed_code_isr= TB.ISRcode and bull_no='$currentSire'" ;
+$result = mysqli_query($db, $sql);
+if($result){
+
+        	$row = mysqli_fetch_assoc($result);
+ 		$cowDetails = $row["BreedCode_2_ch"];
+ 		$sire = $row["bull_no"];
+ 		//echo "<br>THE breed code ISSS".$cowDetails."and the sire is".$sire ;
+
+}
+        if($cowDetails =='NR')
+        {
+          //   the cow's sire == NRF 
+           descendantsOfNRF($db,$currentCow,$sire,$currentMGS);
+        }
+        else
+        {
+         //echo "<br>no!!!";
+        }
+}
+}
+
+function descendantsOfNRF($db,$currentCow,$sire,$currentMGS)
+{
+         $query="SELECT * FROM `bulls_details` WHERE sire='$sire' ";
+         $result = mysqli_query($db, $query);
+         $sireRow = mysqli_fetch_assoc($result);
+        
+   $sql="select BreedCode_2_ch,bull_no,breed_code_isr from `table_breeds` AS TB, `bull_file_israel` AS BI where BI.breed_code_isr= TB.ISRcode and bull_no='$currentMGS'" ;
+$result = mysqli_query($db, $sql);
+      if($result)
+        {
+        	$row = mysqli_fetch_assoc($result);
+ 		$mgsDetails = $row["BreedCode_2_ch"];
+ 		$MGS = $row["bull_no"];
+        }
+        // the cow's MGS and the sire = NRF
+        if($mgsDetails =='NR')
+   {
+
+         $query="SELECT * FROM `bulls_details` WHERE sire='$MGS'";
+         $result = mysqli_query($db, $query);
+         $MGSRow = mysqli_fetch_assoc($result); 
+
+      $query="UPDATE  local_cows AS lc,  `herdbook nor` AS hn
+      SET lc.brd_milk_kg = ".$sireRow['milk_kg']."*0.67+".$MGSRow['milk_kg']."*0.33 , 
+      lc.brd_fat_pre=".$sireRow['fat_pct']."*0.67+".$MGSRow['fat_pct']."*0.33 ,
+      lc.brd_prot_pre=".$sireRow['prot_pct']."*0.67+".$MGSRow['prot_pct']."*0.33 ,
+      lc.brd_dau_fertilty=".$sireRow['fert_indx']."*0.67+".$MGSRow['fert_indx']."*0.33 ,
+      lc.brd_SCC=".$sireRow['mast_indx']."*0.67+".$MGSRow['mast_indx']."*0.33,
+      lc.brd_dau_fertilty=".$sireRow['caease_m']."*0.67+".$MGSRow['caease_m']."*0.33
+      WHERE cow_no='$currentCow' AND User_Id='$username' and Farm='$farmName';";
+      $result = mysqli_query($db, $query);
+              if($result)
+        {
+        echo "<br>succeed";
+        }
+        else
+        {
+         echo "<br>no!!!succeed";
+        }
+   }
+  
+   //only the sire are NRF
+else
+
+   {
+      $query="UPDATE  local_cows AS lc
+      SET lc.brd_milk_kg= ".$sireRow['milk_kg'].", 
+      lc.brd_fat_pre= ".$sireRow['fat_pct'].",
+      lc.brd_prot_pre= ".$sireRow['prot_pct'].",
+      lc.brd_dau_fertilty= ".$sireRow['fert_indx'].",
+      lc.brd_SCC= ".$sireRow['mast_indx'].",
+      lc.brd_dau_fertilty=".$sireRow['caease_m']."
+      WHERE cow_no='$currentCow' AND User_Id='$username' and Farm='$farmName';";
+      $result = mysqli_query($db, $query);
+         if($result)
+        {
+        echo "<br>succeed";
+        }
+        else
+        {
+         echo "<br>no succeed";
+        }
+   } 
+    
+}
 ?>

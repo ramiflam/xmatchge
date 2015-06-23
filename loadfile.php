@@ -96,7 +96,7 @@ echo"the file not exist ";
  
 }
 
-*//*
+*/
 CommonFeatures4Points($db);
 function CommonFeatures4Points($db)
 {      
@@ -204,7 +204,7 @@ if($result){
 
 function descendantsOfNRF($db,$currentCow,$sire,$currentMGS)
 {
-         $query="SELECT * FROM `herdbook nor` WHERE sire='$sire' ";
+         $query="SELECT * FROM `bulls_details` WHERE sire='$sire' ";
          $result = mysqli_query($db, $query);
          $sireRow = mysqli_fetch_assoc($result);
         
@@ -361,7 +361,7 @@ $result2 = mysqli_query($db,$sql);
 echo"the file not exist ";
  
 }
-*/
+*//*
 //to upload Noa file
 $username=$_COOKIE["user"];
 
@@ -403,7 +403,7 @@ $result2 = mysqli_query($db,$sql);
 
 echo"the file not exist ";
  
-}
+}*/
 
 
 ?>																																																																			
