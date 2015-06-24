@@ -199,7 +199,7 @@ if(!empty($_REQUEST['search'])) {
 
  	} else if(isset($_POST['showall']) or $showAll=='true'){
  	$query= $query." where Farm= '$userfarm' order by $order   LIMIT $offset, $_count";
- 	echo $query;
+ 	//echo $query;
 	  }
 	  else if(!isset($_POST['showall']) or $showAll=='false')
 	  	{
