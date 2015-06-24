@@ -8,42 +8,49 @@ Xmatch-Genetics new_user </title>
 <div class="register-form">
 <h1>welcome in ........</h1>
 <form action="fileLoad.php">
-<pre>
+
 <table style="width:50%">
 <tr>
-<td>Upload a new_file&nbsp;:</td><td><input type="submit" value="Upload"></td>
+<td>Upload new cows for farm&nbsp;:</td><td><input type="submit" value="Upload"></td>
 </tr>
 </form> 
 
 <tr>
 <form action="fileLoadBulls.php">
-<pre>
-<table style="width:50%">
+
+
 <tr>
 <td>Upload a bulls file for israel&nbsp;:</td><td><input type="submit" value="Upload"></td>
 </tr>
 </form> 
-<br><br>
+
 <tr>
 <form action="new_user.php">
 <td>Create a new_user&nbsp;:</td><td><input type="submit" value="New user"></td>
 </tr>
-</pre>
+
 </form>
-<br><br>
+
 <tr>
 <form action="new_farm.php">
-<td>Create a new farm&nbsp;:</td><td><input type="submit" value="New farm"></td>
+<td>Create new farm&nbsp;:</td><td><input type="submit" value="New farm"></td>
 </tr>
-</pre>
+
 </form>
-<br><br>
+
 <tr>
+<form action="join_farm.php">
+<td>Join farm to user&nbsp;:</td><td><input type="submit" value="Join farm"></td>
+</tr>
+<tr>
+
+</form>
+
 <form action="settings.php">
 <td>settings......&nbsp;:</td><td><input type="submit" value="settings"></td>
 </tr>
 </table>
-</pre>
+
 </form>
 </body>
 </html>

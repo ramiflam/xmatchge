@@ -65,6 +65,8 @@ Xmatch-Genetics new_user </title>
 <a href="bulls.php" id="Bulls"><?php echo $bullsPhrase ;?></a>
 
 <a href="settings1.php" id="Settings"><?php echo $settingsPhrase ;?></a>
+
+<a href="farm_Select.php" id="Farms"><?php echo 'CHANGE FARM';?></a>
 </div>
 
        <div class="sucess">
