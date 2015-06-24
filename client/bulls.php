@@ -46,6 +46,7 @@ else
 <head>
     <meta http-equiv="Content-Type" content="text/html/php" charset='utf-8' >
     <link rel="stylesheet" type="text/css" href="bulls.css" />
+    <link rel="stylesheet" type="text/css" href="popup.css" />
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 </head>
 <div class="content">
@@ -59,41 +60,7 @@ else
 <body>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
-google.load('visualization', '1', {packages: ['corechart', 'bar']});
-google.setOnLoadCallback(drawRightY);
 
-function drawRightY() {
-      var data = google.visualization.arrayToDataTable([
-        ['City', '2010 Population', '2000 Population'],
-        ['New York City, NY', 8175000, 8008000],
-        ['Los Angeles, CA', 3792000, 3694000],
-        ['Chicago, IL', 2695000, 2896000],
-        ['Houston, TX', 2099000, 1953000],
-        ['Philadelphia, PA', 1526000, 1517000]
-      ]);
-
-      var options = {
-        chart: {
-          title: 'Population of Largest U.S. Cities',
-          subtitle: 'Based on most recent and previous census data'
-        },
-        hAxis: {
-          title: 'Total Population',
-          minValue: 0,
-        },
-        vAxis: {
-          title: 'City'
-        },
-        bars: 'horizontal',
-        axes: {
-          y: {
-            0: {side: 'right'}
-          }
-        }
-      };
-      var material = new google.charts.Bar(document.getElementById('chart_div'));
-      material.draw(data, options);
-    }
 function showAll(){                               
 	//if(document.myform.showall.value=='true'){
 	//document.myform.showall.value = 'false';
@@ -306,7 +273,7 @@ if($breed=='NR') $bullImage = '../assets/nrf bulls.jpg'; else if($breed=='HO') $
              <div id="information" class="information"> 
              
 	<div class="tooltip_title">GENERAL INFORMATION</div>
-	<div class="tooltip_pic" style="background:url('<?php echo $bullImage; ?>') no-repeat;background-size: 155px auto;background-position: 50%;"></div>
+	<div class="tooltip_pic" style="background:url('<?php echo $bullImage; ?>') no-repeat;background-size: 125px auto;background-position: 50%;"></div>
 	<div class="tooltip_info1">
 		<div class="tooltip_col1">
 			<div>
@@ -333,54 +300,141 @@ if($breed=='NR') $bullImage = '../assets/nrf bulls.jpg'; else if($breed=='HO') $
 	</div>
 	<div class="tooltip_info2">
 		<div class="tooltip_col1">
-			<div class="tooltip_sectititle">
+			  <div class="tooltip_sectititle">
 				<?php echo $set2_subtitle1 ?> 
 			</div>
-			<div>
-				<?php echo $set2_juris1; ?><span><?php echo $row["General_size"] ;?></span>
-			</div>
-			<div>
-				 <?php echo $set2_juris2; ?> <span><?php echo $row["General_udder"] ;?></span>
-			</div>
-			<div>
-				<?php echo $set2_juris3; ?> <span><?php echo $row["Teats_location"] ;?></span>
-			</div>
-			<div>
-				<?php echo $set2_juris4; ?> <span><?php echo $row["Udder_depth"] ;?></span>
-			</div>
-			<div>
-				<?php echo $set2_juris5; ?> <span><?php echo $row["General_legs"] ;?></span>
-			</div>
+			<div class="table_header">
+				<div class="first_title">Traits</div>
+				<div class="second_title">Value</div>
+				<div class="third_title">60</div>
+				<div class="third_title">70</div>
+				<div class="third_title">80</div>
+				<div class="third_title">90</div>
+				<div class="third_title">100</div>
+				<div class="third_title">110</div>
+				<div class="third_title">120</div>
+				<div class="third_title">130</div>
+				<div class="third_title">140</div>
 
+			</div>
+			<div class="even">
+				<div class="traits"><?php echo $set2_juris1; ?></div>
+				<div class="value"><?php echo $row["General_size"] ;?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['General_size'])); print_r( $val.'px');?>; margin-left:<?php $val=intval($row['General_size'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div>
+			</div>
+			<div class="odd">
+				 <div class="traits"><?php echo $set2_juris2; ?></div>
+				 <div class="value"><?php echo $row["General_udder"] ;?></div>
+				 <div class="chart_value" style="width: <?php $val=2*abs(100-round($row['General_udder'])); print_r( $val.'px');?>; margin-left:<?php $val=intval($row['General_udder'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div>
+			</div>
+			<div class="even">
+				<div class="traits"><?php echo $set2_juris3; ?></div>
+				<div class="value"><?php echo $row["Teats_location"] ;?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Teats_location'])); print_r( $val.'px');?>; margin-left:<?php $val=intval($row['Teats_location'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div>
+			</div>
+			<div class="odd">
+				<div class="traits"><?php echo $set2_juris4; ?></div>
+				<div class="value"><?php echo $row["Udder_depth"] ;?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Udder_depth'])); print_r( $val.'px');?>; margin-left:<?php $val=intval($row['Udder_depth'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div>
+			</div>
+			<div class="even">
+				 <div class="traits"><?php echo $set2_juris5; ?> </div>
+				 <div class="value"><?php echo $row["General_legs"] ;?></div>
+				 <div class="chart_value" style="width:<?php $val=2*abs(100-round($row['General_legs'])); print_r( $val.'px');?>; margin-left:<?php $val=intval($row['General_legs'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div>
+			</div>
+			<div class="line first"></div>
+			<div class="line second"></div>
+			<div class="line third"></div>
+			<div class="line fourth"></div>
+			<div class="line fifth"></div>
+			<div class="line sixth"></div>
+			<div class="line seventh"></div>
+			<div class="line eighth"></div>
+			<div class="line ninth"></div>
 		</div>
 		<div class="tooltip_col2">
-		<div class="tooltip_sectititle">
-				<?php echo $set2_subtitle2 ?>
+			  <div class="tooltip_sectititle">
+			  <?php echo $set2_subtitle2 ?> 
+			  <div class="table_header">
+				<div class="first_title">Traits</div>
+				<div class="second_title">Value</div>
+				<div class="third_title">60</div>
+				<div class="third_title">70</div>
+				<div class="third_title">80</div>
+				<div class="third_title">90</div>
+				<div class="third_title">100</div>
+				<div class="third_title">110</div>
+				<div class="third_title">120</div>
+				<div class="third_title">130</div>
+				<div class="third_title">140</div>
+
 			</div>
-			<div>
-				<?php echo $set2_manufacture1;?> <span><?php echo $row["KG_milk"] ;?></span>
+				
 			</div>
-			<div>
-				<?php echo $set2_manufacture2;?> <span><?php echo $row["Fat_percentage"] ;?></span>
-			</div>
-			<div>
-				<?php echo $set2_manufacture3;?> <span><?php echo $row["Protein_percentage"] ;?></span>
-			</div>
-			
+			<div class="even">
+				<div class="traits"><?php echo $set2_manufacture1; ?></div>
+				<div class="value"><?php echo round($row["KG_milk"]);?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['KG_milk'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['KG_milk'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>
+						<div class="odd">
+				<div class="traits"><?php echo $set2_manufacture2; ?></div>
+				<div class="value"><?php echo round($row["Fat_percentage"])  ;?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Fat_percentage'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['Fat_percentage'])-7; if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>
+							<div class="even">
+				<div class="traits"><?php echo $set2_manufacture3; ?></div>
+				<div class="value"><?php echo round($row["Protein_percentage"]);?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Protein_percentage'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['Protein_percentage'])-7; if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>	
+			<div class="line first"></div>
+			<div class="line second"></div>
+			<div class="line third"></div>
+			<div class="line fourth"></div>
+			<div class="line fifth"></div>
+			<div class="line sixth"></div>
+			<div class="line seventh"></div>
+			<div class="line eighth"></div>
+			<div class="line ninth"></div>
+
+	<div class="tooltip_col2">	
 	  <div class="tooltip_sectititle">
 				<?php echo $set2_subtitle3 ?> 
+				<div class="table_header">
+				<div class="first_title">Traits</div>
+				<div class="second_title">Value</div>
+				<div class="third_title">60</div>
+				<div class="third_title">70</div>
+				<div class="third_title">80</div>
+				<div class="third_title">90</div>
+				<div class="third_title">100</div>
+				<div class="third_title">110</div>
+				<div class="third_title">120</div>
+				<div class="third_title">130</div>
+				<div class="third_title">140</div>
+
 			</div>
-			<div>
-				<?php echo $set2_manufacture4;?> <span><?php echo $row["SCC"] ;?></span>
 			</div>
-			<div>
-				<?php echo $set2_manufacture5;?> <span><?php echo $row["Fertility"] ;?></span>
-			</div>
-						<div>
-				<?php echo $set2_juris6;?> <span><?php echo $row["Pelvis_stucture"] ;?></span>
-			</div>
-			<div id="chart_div"><div>
-		</div>
+			<div class="even">
+				<div class="traits"><?php echo $set2_manufacture4; ?></div>
+				<div class="value"><?php echo round($row["SCC"]);?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['SCC'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['SCC'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>
+				<div class="even">
+				<div class="traits"><?php echo $set2_manufacture5; ?></div>
+				<div class="value"><?php echo round($row["Fertility"]);?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Fertility'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['Fertility'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>
+				<div class="even">
+				<div class="traits"><?php echo $set2_juris6; ?></div>
+				<div class="value"><?php echo round($row["Pelvis_stucture"]);?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Pelvis_stucture'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['Pelvis_stucture'])-13;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>
+							<div class="line first"></div>
+			<div class="line second"></div>
+			<div class="line third"></div>
+			<div class="line fourth"></div>
+			<div class="line fifth"></div>
+			<div class="line sixth"></div>
+			<div class="line seventh"></div>
+			<div class="line eighth"></div>
+			<div class="line ninth"></div>
+</div>		
+
+
 	</div>
 	
 </div>

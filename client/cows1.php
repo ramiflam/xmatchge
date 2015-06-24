@@ -62,6 +62,7 @@ $order='brd_dau_fertilty  DESC';
 <head>
    <meta http-equiv="Content-Type" content="text/html/php" charset='utf-8' >
   <link rel="stylesheet" type="text/css" href="cows.css" />
+  <link rel="stylesheet" type="text/css" href="popup.css" />
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
 /*$(document).ready(function(){
@@ -229,7 +230,7 @@ if($breed=='NR') $cowImg  = '../assets/nrf cow.jpg'; else if($breed=='HO') $cowI
      <div id="information" class="information">
 
 	<div class="tooltip_title">GENERAL INFORMATION</div>
-	<div class="tooltip_pic" style="background:url('<?php echo $cowImg; ?>') no-repeat;background-size: 155px auto;background-position: 50%;"></div>
+	<div class="tooltip_pic" style="background:url('<?php echo $cowImg; ?>') no-repeat;background-size: 125px auto;background-position: 50%;"></div>
 	<div class="tooltip_info1">
 		<div class="tooltip_col1">
 
@@ -257,48 +258,136 @@ if($breed=='NR') $cowImg  = '../assets/nrf cow.jpg'; else if($breed=='HO') $cowI
 			  <div class="tooltip_sectititle">
 				<?php echo $set2_subtitle1 ?> 
 			</div>
-			<div>
-				<?php echo $set2_juris1; ?><span><?php echo $row["brd_general_size"] ;?></span>
+			<div class="table_header">
+				<div class="first_title">Traits</div>
+				<div class="second_title">Value</div>
+				<div class="third_title">60</div>
+				<div class="third_title">70</div>
+				<div class="third_title">80</div>
+				<div class="third_title">90</div>
+				<div class="third_title">100</div>
+				<div class="third_title">110</div>
+				<div class="third_title">120</div>
+				<div class="third_title">130</div>
+				<div class="third_title">140</div>
+
 			</div>
-			<div>
-				 <?php echo $set2_juris2; ?><span><?php echo $row["brd_udder"] ;?></span>
+			<div class="even">
+				<div class="traits"><?php echo $set2_juris1; ?></div>
+				<div class="value"><?php echo $row["brd_general_size"] ;?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['brd_general_size'])); print_r( $val.'px');?>; margin-left:<?php $val=intval($row['brd_general_size'])-7;  if($val<95) print_r( $val.'px'); else echo '92px';?>"></div>
 			</div>
-			<div>
-				<?php echo $set2_juris3; ?><span><?php echo $row["brd_Teats_placement"] ;?></span>
+			<div class="odd">
+				 <div class="traits"><?php echo $set2_juris2; ?></div>
+				 <div class="value"><?php echo $row["brd_udder"] ;?></div>
+				 <div class="chart_value" style="width: <?php $val=2*abs(100-round($row['brd_udder'])); print_r( $val.'px');?>; margin-left:<?php $val=intval($row['brd_udder'])-7;  if($val<95) print_r( $val.'px'); else echo '92px';?>"></div>
 			</div>
-			<div>
-				<?php echo $set2_juris4; ?><span><?php echo $row["brd_Udder_depth"] ;?></span>
+			<div class="even">
+				<div class="traits"><?php echo $set2_juris3; ?></div>
+				<div class="value"><?php echo $row["brd_Teats_placement"] ;?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['brd_Teats_placement'])); print_r( $val.'px');?>; margin-left:<?php $val=intval($row['brd_Teats_placement'])-7;  if($val<95) print_r( $val.'px'); else echo '92px';?>"></div>
 			</div>
-			<div>
-				 <?php echo $set2_juris5; ?> <span><?php echo $row["brd_legs"] ;?></span>
+			<div class="odd">
+				<div class="traits"><?php echo $set2_juris4; ?></div>
+				<div class="value"><?php echo $row["brd_Udder_depth"] ;?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['brd_Udder_depth'])); print_r( $val.'px');?>; margin-left:<?php $val=intval($row['brd_Udder_depth'])-7;  if($val<95) print_r( $val.'px'); else echo '92px';?>"></div>
 			</div>
+			<div class="even">
+				 <div class="traits"><?php echo $set2_juris5; ?> </div>
+				 <div class="value"><?php echo $row["brd_legs"] ;?></div>
+				 <div class="chart_value" style="width:<?php $val=2*abs(100-round($row['brd_legs'])); print_r( $val.'px');?>; margin-left:<?php $val=intval($row['brd_legs'])-7;  if($val<95) print_r( $val.'px'); else echo '92px';?>"></div>
+			</div>
+			<div class="line first"></div>
+			<div class="line second"></div>
+			<div class="line third"></div>
+			<div class="line fourth"></div>
+			<div class="line fifth"></div>
+			<div class="line sixth"></div>
+			<div class="line seventh"></div>
+			<div class="line eighth"></div>
+			<div class="line ninth"></div>
 		</div>
 		<div class="tooltip_col2">
 			  <div class="tooltip_sectititle">
-				<?php echo $set2_subtitle2 ?> 
+			  <?php echo $set2_subtitle2 ?> 
+			  <div class="table_header">
+				<div class="first_title">Traits</div>
+				<div class="second_title">Value</div>
+				<div class="third_title">60</div>
+				<div class="third_title">70</div>
+				<div class="third_title">80</div>
+				<div class="third_title">90</div>
+				<div class="third_title">100</div>
+				<div class="third_title">110</div>
+				<div class="third_title">120</div>
+				<div class="third_title">130</div>
+				<div class="third_title">140</div>
+
 			</div>
-			<div>
-				<?php echo $set2_manufacture1;?> <span><?php echo round($row["brd_milk_kg"]) ;?></span>
+				
 			</div>
-			<div>
-				<?php echo $set2_manufacture2;?> <span><?php echo round($row["brd_fat_pre"]) ;?></span>
-			</div>
-			<div>
-				<?php echo $set2_manufacture3;?> <span><?php echo round($row["brd_prot_pre"]) ;?></span>
-			</div>
-			
+			<div class="even">
+				<div class="traits"><?php echo $set2_manufacture1; ?></div>
+				<div class="value"><?php echo round($row["brd_milk_kg"]);?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['brd_milk_kg'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['brd_milk_kg'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>
+						<div class="odd">
+				<div class="traits"><?php echo $set2_manufacture2; ?></div>
+				<div class="value"><?php echo round($row["brd_fat_pre"])  ;?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['brd_fat_pre'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['brd_fat_pre'])-7; if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>
+							<div class="even">
+				<div class="traits"><?php echo $set2_manufacture3; ?></div>
+				<div class="value"><?php echo round($row["brd_prot_pre"]);?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['brd_prot_pre'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['brd_prot_pre'])-7; if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>	
+			<div class="line first"></div>
+			<div class="line second"></div>
+			<div class="line third"></div>
+			<div class="line fourth"></div>
+			<div class="line fifth"></div>
+			<div class="line sixth"></div>
+			<div class="line seventh"></div>
+			<div class="line eighth"></div>
+			<div class="line ninth"></div>
+</div>
+		<div class="tooltip_col2">	
 	  <div class="tooltip_sectititle">
 				<?php echo $set2_subtitle3 ?> 
+				<div class="table_header">
+				<div class="first_title">Traits</div>
+				<div class="second_title">Value</div>
+				<div class="third_title">60</div>
+				<div class="third_title">70</div>
+				<div class="third_title">80</div>
+				<div class="third_title">90</div>
+				<div class="third_title">100</div>
+				<div class="third_title">110</div>
+				<div class="third_title">120</div>
+				<div class="third_title">130</div>
+				<div class="third_title">140</div>
+
 			</div>
-			<div>
-				<?php echo $set2_manufacture4;?> <span><?php echo round($row["brd_SCC"]) ;?></span>
 			</div>
-			<div>
-				<?php echo $set2_manufacture5;?> <span><?php echo round($row["brd_dau_fertilty"]) ;?></span>
-			</div>
-						<div>
-				<?php echo $set2_juris6;?> <span><?php echo round($row["brd_Ramp_stucture"]) ;?></span>
-			</div>
+			<div class="even">
+				<div class="traits"><?php echo $set2_manufacture4; ?></div>
+				<div class="value"><?php echo round($row["brd_SCC"]);?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['brd_SCC'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['brd_SCC'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>
+				<div class="even">
+				<div class="traits"><?php echo $set2_manufacture5; ?></div>
+				<div class="value"><?php echo round($row["brd_dau_fertilty"]);?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['brd_dau_fertilty'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['brd_dau_fertilty'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>
+				<div class="even">
+				<div class="traits"><?php echo $set2_juris6; ?></div>
+				<div class="value"><?php echo round($row["brd_Ramp_stucture"]);?></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['brd_Ramp_stucture'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['brd_Ramp_stucture'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>
+							<div class="line first"></div>
+			<div class="line second"></div>
+			<div class="line third"></div>
+			<div class="line fourth"></div>
+			<div class="line fifth"></div>
+			<div class="line sixth"></div>
+			<div class="line seventh"></div>
+			<div class="line eighth"></div>
+			<div class="line ninth"></div>
+</
 		</div>
 	</div>
 	

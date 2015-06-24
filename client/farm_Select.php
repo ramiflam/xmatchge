@@ -12,6 +12,8 @@ $username=$_COOKIE["user"];
 <head>
     <link rel="stylesheet" type="text/css" href="main.css" />
     <link rel="stylesheet" type="text/css" href="farms.css" />
+    </head>
+    <body>
  <br> <br> 
 <title>
 Xmatch-Genetics new_user </title>
@@ -43,7 +45,7 @@ while($fetch_options = mysqli_fetch_array($result)) { //Loop all the options ret
 //echo json_encode($fetch_options);
 ?>
  <!--Added Id for Options Element -->
- <div class="single-farm" style="<?php if($fetch_options['pic_link']!='') {echo 'background: url('.$fetch_options['pic_link'].') no-repeat;background-size: 200px;background-position: center 0px;';} else {echo 'background: url(/assets/cows2.png) no-repeat;background-size: 200px;background-position: center 0px;';} ?>"><?php echo $fetch_options['farm_name']; ?></div>
+ <div class="single-farm <?php if($fetch_options['pic_link']!='') echo 'circle'?>" style="<?php if($fetch_options['pic_link']!='') {echo 'background-image: url('.$fetch_options['pic_link'].');';} else {echo 'background-image: url(/assets/cows2.png);';} ?>"><?php echo $fetch_options['farm_name']; ?></div>
 <!--<option value ="<?php echo $fetch_options['farm_name']; ?>"><?php echo $fetch_options['farm_name']; ?></option>--><!--Echo out options-->
 <?php } ?>
 <!-- </select> -->
@@ -67,6 +69,7 @@ while($fetch_options = mysqli_fetch_array($result)) { //Loop all the options ret
 </form>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
+$(document).ready(function () {
 $(".single-farm").click( function(){
 //alert($(this).text());
 var data = {
@@ -84,6 +87,7 @@ var data = {
       	//$("#creatHref").click();//alert(data);
       }
 	});
+});
 });
 </script>
 </body>

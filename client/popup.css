@@ -1,0 +1,203 @@
+
+#information{
+    position: absolute;
+  width: 400px;
+  height: 530px;
+  display: none;
+  background: #fff;
+  left:190px;
+  top: 200px;
+  font-size: 0.9em;
+  text-align: left;
+    line-height: 15px;
+   box-shadow: 2px 2px 20px #989898;
+    cursor: auto;
+}
+
+#information span{
+	float:right;
+}
+#information div.value{
+  float: none;
+  color: #009999;
+  text-align: center;
+  width: 50px;
+  border-right: solid;
+  border-left: solid;
+  border-color: #fff;
+  border-width: 1px;
+  display: inline-block;
+}
+#information .traits{
+  width: 30%;
+  display: inline-block;
+}
+
+.tooltip_info1 .tooltip_col1 span{
+	float:none !important;
+}
+
+.tooltip_title{
+  width: 100%;
+  height: 8%;
+  text-align: center;
+  line-height: 57px;
+  border-bottom: 1px solid grey;
+  font-weight: bold;
+   
+}
+
+.tooltip_pic{
+	width: 100%;
+	height: 18%;
+	
+  background-size: 155px auto;
+  background-position: 50%;
+  border-bottom: 1px solid grey;
+}
+
+.tooltip_info1{
+	width: 90%;
+  
+	height: 9%;
+  
+	padding: 5%;
+  border-bottom: 1px solid grey;
+	padding-top: 5px;
+}
+
+.tooltip_info2{
+	width: 90%;
+  height: 35%;
+  padding: 5% 5% 5% 5%;
+	padding-top: 5px;
+}
+
+.tooltip_col1{
+	width: 35%;
+  padding-bottom: 15px;
+  float: left;
+  padding-right: 13%;
+}
+
+.tooltip_col2{
+	width: 100%;
+  height: 60%;
+  float: left;
+  padding-right: 15%;
+    position: relative;
+}
+
+.tooltip_info1 .tooltip_col2{
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding-right: 1%;
+}
+div.tooltip_sectititle{
+
+font-weight:bold;
+
+}
+/*
+#heading img{
+margin-left: 30px;
+}
+*/
+#heading input[type=checkbox]{
+  margin: -1px 10px 5px 15px;
+}
+.border{
+  border: 1px solid #aaa;
+  width: 660px;
+  }
+  
+  .wrapper{
+  width: 70%;
+  height: auto;
+  position: relative;
+  float: left;
+  }
+  .not-padding{
+    padding-left: 0px;}
+ .even{
+ }
+ .odd{
+ background-color: #efefef;
+ }
+.tooltip_info2 .tooltip_col1{
+ width: 100%;
+  position: relative;
+ }
+ .table_header{
+    background-color: #DFDFDF;
+ 
+    line-height: 29px;
+}
+ .first_title{
+    display: inline-block;
+ 
+    width: 30%;
+}
+ .second_title{
+    display: inline-block;
+ 
+    width: 50px;
+    text-align: center;
+    border-right: solid;    border-left: solid;    border-color: #fff;    border-width: 1px;
+}
+ .third_title{
+    display: inline-block;
+ 
+    width: 18px;
+    text-align: center;
+}
+.chart_value{
+  background-color: #009999;
+  height: 6px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 10px;
+}
+.line {
+  position: absolute;
+  height: 75px;
+  border-right: dotted;
+  border-width: 1px;
+  border-color: gray;
+  top: 45px;
+  
+}
+.line.first{
+left: 175px;
+}
+.line.second{
+left: 196px;
+}
+.line.third{
+left: 217px;
+}
+.line.fourth{
+left: 238px;
+}
+.line.fifth{
+left: 259px;
+  border-right: solid;
+  border-width: 2px;
+  border-color: gray;
+}
+.line.sixth{
+left: 280px;
+}
+.line.seventh{
+left: 301px;
+}
+.line.eighth{
+left: 321px;
+}
+.line.ninth{
+left: 341px;
+}
+.tooltip_col2 .line{
+  height: 40px;
+  }

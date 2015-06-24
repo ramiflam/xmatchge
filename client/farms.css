@@ -9,7 +9,8 @@
   -moz-box-sizing: border-box;
 }
 .farms-container .single-farm {
-  background: url("/assets/cows2.png") no-repeat;
+  background-image: url("/assets/cows2.png");
+  background-repeat: no-repeat;
   background-size: 200px;
   background-position: center 0px;
   height: 250px;
@@ -27,3 +28,12 @@
   width: 400px;
   font-size: 40;
 }
+.circle{
+  height: 200px!important;
+  width: 200px!important;
+  border-radius: 50%;
+  display: inline-block;
+  background-position: center!important;
+  background-color: #fff;
+  background-size: 200px;
+  }
