@@ -110,9 +110,10 @@ Xmatch-Genetics new_user </title>
             <label><?php echo $settingsPhrase;?></label></a>
     </div>
     <div id="tank" class="part1">
+    <a href="tank.php">
         <div class="circle" id="tank">
             </div></a>
-        <label><?php echo 'STOCK MANAGEMENT';?></label>
+        <label><?php echo 'STOCK MANAGEMENT';?></label></a>
     </div>
 </div>
 </div>

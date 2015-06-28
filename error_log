@@ -263,3 +263,20 @@
 [24-Jun-2015 01:23:38 America/Denver] PHP Notice:  Undefined variable: db in /home1/xmatchge/public_html/xmatchge/development/new_farm.php on line 12
 [24-Jun-2015 01:23:38 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/xmatchge/public_html/xmatchge/development/new_farm.php on line 12
 [24-Jun-2015 02:48:54 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home1/xmatchge/public_html/xmatchge/development/new_farm.php on line 40
+[24-Jun-2015 23:21:09 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 32
+[24-Jun-2015 23:21:09 America/Denver] PHP Notice:  Undefined index: remember_me in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 57
+[24-Jun-2015 23:21:09 America/Denver] PHP Notice:  Undefined index: fname in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 83
+[24-Jun-2015 23:21:09 America/Denver] PHP Notice:  Undefined index: fpass in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 84
+[24-Jun-2015 23:21:09 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 85
+[24-Jun-2015 23:21:12 America/Denver] PHP Notice:  Undefined index: remember_me in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 57
+[24-Jun-2015 23:21:12 America/Denver] PHP Notice:  Undefined index: remember in /home1/xmatchge/public_html/xmatchge/development/welcome.php on line 85
+[24-Jun-2015 23:22:56 America/Denver] PHP Notice:  Undefined index: bulls in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 56
+[24-Jun-2015 23:22:57 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 298
+[24-Jun-2015 23:36:16 America/Denver] PHP Notice:  Undefined index: bulls in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 56
+[24-Jun-2015 23:36:16 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 298
+[24-Jun-2015 23:39:26 America/Denver] PHP Notice:  Undefined index: bulls in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 56
+[24-Jun-2015 23:39:27 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 298
+[24-Jun-2015 23:47:50 America/Denver] PHP Notice:  Undefined index: bulls in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 56
+[24-Jun-2015 23:47:51 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home1/xmatchge/public_html/xmatchge/development/upload.php on line 298
+[24-Jun-2015 23:55:19 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home1/xmatchge/public_html/xmatchge/development/fileLoad.php on line 31
+[24-Jun-2015 23:55:37 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home1/xmatchge/public_html/xmatchge/development/fileLoad.php on line 32

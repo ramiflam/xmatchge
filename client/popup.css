@@ -2,11 +2,14 @@
 #information{
     position: absolute;
   width: 400px;
-  height: 530px;
+  
+    height: 579px;
   display: none;
   background: #fff;
-  left:190px;
-  top: 200px;
+  
+    left: 266px;
+  
+    top: 60px;
   font-size: 0.9em;
   text-align: left;
     line-height: 15px;
@@ -82,10 +85,12 @@
 
 .tooltip_col2{
 	width: 100%;
-  height: 60%;
+  
+	/* height: 60%; */
   float: left;
   padding-right: 15%;
     position: relative;
+	padding-bottom: 15px;
 }
 
 .tooltip_info1 .tooltip_col2{

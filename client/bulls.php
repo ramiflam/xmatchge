@@ -78,7 +78,9 @@ $(document).ready(function() {
   $("tr").click(function(e) {
     //e.preventDefault();
     //  Show my popup with slide effect, this can be a simple .show() or .fadeToggle()
+    if( !$(e.target).is("[type=checkbox]")) {
     $(this).find('[class=information]').show();
+    }
   /*  $(".cow_pic).toggle();*/
   });
   // Cancel the mouseup event in the popup
@@ -320,27 +322,27 @@ if($breed=='NR') $bullImage = '../assets/nrf bulls.jpg'; else if($breed=='HO') $
 			<div class="even">
 				<div class="traits"><?php echo $set2_juris1; ?></div>
 				<div class="value"><?php echo $row["General_size"] ;?></div>
-				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['General_size'])); print_r( $val.'px');?>; margin-left:<?php $val=intval($row['General_size'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['General_size'])); print_r( $val.'px');?>; margin-left:<?php $mar=93-$val;   if($row['General_size']<100) print_r( $mar.'px'); else echo '95px';?>"></div>
 			</div>
 			<div class="odd">
 				 <div class="traits"><?php echo $set2_juris2; ?></div>
 				 <div class="value"><?php echo $row["General_udder"] ;?></div>
-				 <div class="chart_value" style="width: <?php $val=2*abs(100-round($row['General_udder'])); print_r( $val.'px');?>; margin-left:<?php $val=intval($row['General_udder'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div>
+				 <div class="chart_value" style="width: <?php $val=2*abs(100-round($row['General_udder'])); print_r( $val.'px');?>; margin-left:<?php $mar=93-$val;   if($row['General_udder']<100) print_r( $mar.'px'); else echo '95px';?>"></div>
 			</div>
 			<div class="even">
 				<div class="traits"><?php echo $set2_juris3; ?></div>
 				<div class="value"><?php echo $row["Teats_location"] ;?></div>
-				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Teats_location'])); print_r( $val.'px');?>; margin-left:<?php $val=intval($row['Teats_location'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Teats_location'])); print_r( $val.'px');?>; margin-left:<?php $mar=93-$val;   if($row['Teats_location']<100) print_r( $mar.'px'); else echo '95px';?>"></div>
 			</div>
 			<div class="odd">
 				<div class="traits"><?php echo $set2_juris4; ?></div>
 				<div class="value"><?php echo $row["Udder_depth"] ;?></div>
-				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Udder_depth'])); print_r( $val.'px');?>; margin-left:<?php $val=intval($row['Udder_depth'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Udder_depth'])); print_r( $val.'px');?>; margin-left:<?php $mar=93-$val;   if($row['Udder_depth']<100) print_r( $mar.'px'); else echo '95px';?>"></div>
 			</div>
 			<div class="even">
 				 <div class="traits"><?php echo $set2_juris5; ?> </div>
 				 <div class="value"><?php echo $row["General_legs"] ;?></div>
-				 <div class="chart_value" style="width:<?php $val=2*abs(100-round($row['General_legs'])); print_r( $val.'px');?>; margin-left:<?php $val=intval($row['General_legs'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div>
+				 <div class="chart_value" style="width:<?php $val=2*abs(100-round($row['General_legs'])); print_r( $val.'px');?>; margin-left:<?php $mar=93-$val;   if($row['General_legs']<100) print_r( $mar.'px'); else echo '95px';?>"></div>
 			</div>
 			<div class="line first"></div>
 			<div class="line second"></div>
@@ -374,15 +376,15 @@ if($breed=='NR') $bullImage = '../assets/nrf bulls.jpg'; else if($breed=='HO') $
 			<div class="even">
 				<div class="traits"><?php echo $set2_manufacture1; ?></div>
 				<div class="value"><?php echo round($row["KG_milk"]);?></div>
-				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['KG_milk'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['KG_milk'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['KG_milk'])); print_r( $val.'px');?>; margin-left:<?php $mar=93-$val;   if($row['KG_milk']<100) print_r( $mar.'px'); else echo '95px';?>"></div></div>
 						<div class="odd">
 				<div class="traits"><?php echo $set2_manufacture2; ?></div>
 				<div class="value"><?php echo round($row["Fat_percentage"])  ;?></div>
-				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Fat_percentage'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['Fat_percentage'])-7; if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Fat_percentage'])); print_r( $val.'px');?>; margin-left:<?php $mar=93-$val;   if($row['Fat_percentage']<100) print_r( $mar.'px'); else echo '95px';?>"></div></div>
 							<div class="even">
 				<div class="traits"><?php echo $set2_manufacture3; ?></div>
 				<div class="value"><?php echo round($row["Protein_percentage"]);?></div>
-				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Protein_percentage'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['Protein_percentage'])-7; if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>	
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Protein_percentage'])); print_r( $val.'px');?>; margin-left:<?php  $mar=93-$val;   if($row['Protein_percentage']<100) print_r( $mar.'px'); else echo '95px';?>"></div></div>	
 			<div class="line first"></div>
 			<div class="line second"></div>
 			<div class="line third"></div>
@@ -392,7 +394,7 @@ if($breed=='NR') $bullImage = '../assets/nrf bulls.jpg'; else if($breed=='HO') $
 			<div class="line seventh"></div>
 			<div class="line eighth"></div>
 			<div class="line ninth"></div>
-
+</div>
 	<div class="tooltip_col2">	
 	  <div class="tooltip_sectititle">
 				<?php echo $set2_subtitle3 ?> 
@@ -414,15 +416,15 @@ if($breed=='NR') $bullImage = '../assets/nrf bulls.jpg'; else if($breed=='HO') $
 			<div class="even">
 				<div class="traits"><?php echo $set2_manufacture4; ?></div>
 				<div class="value"><?php echo round($row["SCC"]);?></div>
-				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['SCC'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['SCC'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['SCC'])); print_r( $val.'px');?>; margin-left:<?php  $mar=93-$val;   if($row['SCC']<100) print_r( $mar.'px'); else echo '95px';?>"></div></div>
 				<div class="even">
 				<div class="traits"><?php echo $set2_manufacture5; ?></div>
 				<div class="value"><?php echo round($row["Fertility"]);?></div>
-				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Fertility'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['Fertility'])-7;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Fertility'])); print_r( $val.'px');?>; margin-left:<?php  $mar=93-$val;   if($row['Fertility']<100) print_r( $mar.'px'); else echo '95px';?>"></div></div>
 				<div class="even">
 				<div class="traits"><?php echo $set2_juris6; ?></div>
 				<div class="value"><?php echo round($row["Pelvis_stucture"]);?></div>
-				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Pelvis_stucture'])); print_r( $val.'px');?>; margin-left:<?php $val=round($row['Pelvis_stucture'])-13;  if($val<95) print_r( $val.'px'); else echo '95px';?>"></div></div>
+				<div class="chart_value" style="width:<?php $val=2*abs(100-round($row['Pelvis_stucture'])); print_r( $val.'px');?>; margin-left:<?php  $mar=93-$val;   if($row['Pelvis_stucture']<100) print_r( $mar.'px'); else echo '95px';?>"></div></div>
 							<div class="line first"></div>
 			<div class="line second"></div>
 			<div class="line third"></div>

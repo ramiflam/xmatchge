@@ -365,7 +365,7 @@ SET c.brd_prot_pre=c.brd_prot_pre/s.STV*4 +100 WHERE s.Traits='protein_percentag
    $result_num=mysqli_affected_rows($db);
     if($result_num==0)
     {
-      exit("alert!!! you can't continue ask expert!!!!(protein pre)");
+      //exit("alert!!! you can't continue ask expert!!!!(protein pre)");
     }
 else{echo "<br>the rusult num rows is".$result_num;}
        $query="UPDATE  local_cows AS c,  `STV_per_traits_per_base` AS s
@@ -375,7 +375,7 @@ SET c.brd_dau_fertilty=c.brd_dau_fertilty/s.STV*4 +100 WHERE s.Traits='fertility
    $result_num=mysqli_affected_rows($db);
     if($result_num==0)
     {
-      exit("alert!!! you can't continue ask expert!!!!(fertility)");
+      //exit("alert!!! you can't continue ask expert!!!!(fertility)");
     }
     else{echo "<br>the rusult num rows is".$result_num;}
 
@@ -387,7 +387,7 @@ SET c.brd_SCC=c.brd_SCC/s.STV*4 +100 WHERE s.Traits='SCC'  AND
    $result_num=mysqli_affected_rows($db);
     if($result_num==0)
     {
-      exit("alert!!! you can't continue ask expert!!!!(SCC)");
+      //exit("alert!!! you can't continue ask expert!!!!(SCC)");
     }
 else{echo "<br>the result num rows is".$result_num;}
 
@@ -398,7 +398,7 @@ SET c.brd_Ramp_stucture=c.brd_Ramp_stucture/s.STV*4 +100 WHERE s.Traits='MCE'  A
    $result_num=mysqli_affected_rows($db);
     if($result_num==0)
     {
-      exit("alert!!! you can't continue ask expert!!!!(MCE)");
+      //exit("alert!!! you can't continue ask expert!!!!(MCE)");
     }
   else{echo "<br>the result num rows is".$result_num;}
 
@@ -416,7 +416,7 @@ if($result){
         if($cowDetails =='NR')
         {
           //   the cow's sire == NRF 
-           descendantsOfNRF($db,$currentCow,$sire,$currentMGS);
+           //descendantsOfNRF($db,$currentCow,$sire,$currentMGS);
         }
         else
         {
