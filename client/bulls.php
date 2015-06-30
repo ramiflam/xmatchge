@@ -75,7 +75,7 @@ function showAll(){
 $(document).ready(function() {
 //$(".information").hide();
   // Bind click event to a link
-  $("tr").click(function(e) {
+  $(".pic").click(function(e) {
     //e.preventDefault();
     //  Show my popup with slide effect, this can be a simple .show() or .fadeToggle()
     if( !$(e.target).is("[type=checkbox]")) {
@@ -269,7 +269,7 @@ $breed=getBreedType2($db,$row["breed"]);
 if($breed=='NR') $bullImage = '../assets/nrf bulls.jpg'; else if($breed=='HO') $bullImage = '../assets/holstein bulls.jpg';else if($breed=='BS') $bullImage = '../assets/brownswiss-web-1.jpg'; else if($breed=='SM') $bullImage = '../assets/simmental01.jpg'; else if($breed=='JE') $bullImage = '../assets/jersey-web-1.jpg'; else if($breed=='FL') $bullImage = '../assets/flv bulls.jpg'; else $bullImage = '../assets/iconcow.jpg';
 ?>
 <tr name="tr"  index='<?php echo $i++?>' bull='<?php echo $row["bull_no"] ;?>'>
-        <td id="pic"><!--<input type="checkbox" name="checkbox" value="">-->
+        <td id="pic" class="pic"><!--<input type="checkbox" name="checkbox" value="">-->
         <img class="bull_pic" src="<?php echo $bullImage; ?>" height="30" width="38">
 
              <div id="information" class="information"> 

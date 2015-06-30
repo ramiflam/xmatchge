@@ -74,7 +74,7 @@ $("#cow_pic").click(function (e) {
 $(document).ready(function() {
 $(".information").hide();
   // Bind click event to a link
-  $("tr").click(function(e) {
+  $(".pic").click(function(e) {
     //e.preventDefault();
     //  Show my popup with slide effect, this can be a simple .show() or .fadeToggle()
     if( !$(e.target).is("[type=checkbox]")) {
@@ -227,7 +227,7 @@ if($breed=='NR') $cowImg  = '../assets/nrf cow.jpg'; else if($breed=='HO') $cowI
 ?>
 <tbody>
 <tr index='<?php echo $index?>'>
-<td id="pic" >
+<td id="pic"  class="pic">
      <input type="checkbox" name="checkbox" value="" class="checkbox"><img class="cow_pic" src="<?php  echo $cowImg ?>" height="30" width="38">
      <div id="information" class="information">
 

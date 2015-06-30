@@ -97,7 +97,7 @@ table{
 }
 tr{
 margin:8px;
-  cursor: pointer;
+
 }
 table, th, td {
     border-collapse: collapse;
@@ -136,6 +136,7 @@ td{
 
 td#pic{
 width:65px;
+  cursor: pointer;
 }
 td#color.secttl{
     padding-right: 11px;
@@ -214,6 +215,7 @@ color:white;
   border-bottom-color: #7a1519;
   padding-bottom:8px;
 }
+
 button.submit{
     background-color:rgba(220,220,220,1);
     color:black;

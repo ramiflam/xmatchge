@@ -49,6 +49,17 @@ else
     <link rel="stylesheet" type="text/css" href="popup.css" />
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 </head>
+<body>
+<style type="text/css">
+.menu a#tank{
+  border-bottom: 5px solid;
+  border-bottom-color: #7a1519;
+  padding-bottom:8px;
+}
+.menu a#Bulls {
+border-bottom: 0px solid;
+}
+</style>
 <div class="content">
     <ul>
         <a href=""><li>Stock Settings</li> </a>
