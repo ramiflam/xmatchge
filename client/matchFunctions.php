@@ -16,7 +16,11 @@ $gnBullsInseminationOtherBulls = 0; // need to update the value taken as sum of 
 function getCow($db)
 {
 $username=$_COOKIE["user"];
-$farm=getUserFarm ($db,$username);
+if(isset($_COOKIE["farm"])){
+	$farm=$_COOKIE["farm"];
+} else {
+	$farm=getUserFarm ($db, $username);
+}
 $MatchDailyActivitiesBulls=array();
 foreach ($_GET as $cow_no )
  {
@@ -39,8 +43,7 @@ foreach ($_GET as $cow_no )
  }
  RETURN $MatchDailyActivitiesBulls;
 }
- $username=$_COOKIE["user"];
-$farm=getUserFarm ($db,$username);
+ 
 
 function gsMatchDailyActivitiesBulls($db, $vrsCurrentCow, $userId,$farm)
 {
@@ -68,7 +71,7 @@ function gsMatchDailyActivitiesBulls($db, $vrsCurrentCow, $userId,$farm)
         $userSettingsResult = mysqli_query($db, $userSettingsQuery);
         If ($userSettingsResult->num_rows > 0)    {
         $num = mysqli_num_rows($userSettingsResult);
-      // echo "<br>the result num3 is ".$num;
+       //echo "<br>the result num3 is ".$num;
         	$userSettingsRow = mysqli_fetch_assoc($userSettingsResult);
         }
         else  {
@@ -204,23 +207,23 @@ THEN u.order_by ELSE b.Order_by_Fertility END AS Order_by_Fertility FROM  `bulls
                 if (false == $bullRow['Limited']) {
                    $B = true;
                 }$q=$bullRow['Planned_usage'];
-             //echo "<br>hi33total is".$gnBullsInseminationTotal;
+             ///echo "<br>hi33total is".$gnBullsInseminationTotal;
                if (($gnBullsInseminationTotal == 0) or $B) {
                    
                    if (($bullRow['Planned_usage'] > 0) and ($bullRow['Match_status'] == 1)) {
                      $B = (! bgfCheckForConsanguinity($db, $vrsCurrentCow, $bullRow,$farm));
-                  //  echo "pop".$B;
+                    //echo "pop".$B;
                      if ($B) {
-                   //  echo "<br>hi4";
+                     //echo "<br>hi4";
                         $B = (($bullRow['From_insemination'] <= ($cowRow['Last_insemination_no'] + 1)) and ($bullRow['To_insemination'] > $cowRow['Last_insemination_no']));
                         
                      }
                      if ($B) {
-                    //  echo "<br>hi4".$B;
+                      //echo "<br>hi4".$B;
                         $B = ($bullRow['Heifer_status'] == 0) and ($cowRow['lact_no'] > 0);
                         $B = ($B Or (($bullRow['Heifer_status'] == 1) and ($cowRow['lact_no'] == 0)));
                         $B = ($B Or ($bullRow['Heifer_status'] == 2));
-                      //  echo " the cow num isppone".$B;
+                        //echo " the cow num isppone".$B;
                         if ($B==1) {
                      //   echo " the cow num ispptwo".$i;
                            If ($bullRow['Repetition'] > $gnMagicNumber) {
@@ -229,7 +232,7 @@ THEN u.order_by ELSE b.Order_by_Fertility END AS Order_by_Fertility FROM  `bulls
                             $B = bgfCheckSensitivity($db,$vrsCurrentCow,$vrsCurrentBull,$userId,$farm);
                              }
                               if ($B==1) {
-                              // echo "<br>the b  ".$B."the bull num is".$bullRow['bull_no'];
+                               //echo "<br>the b  ".$B."the bull num is".$bullRow['bull_no'];
                                  if(!in_array($bullRow['bull_no'],$bullsList)){
                                  $bullsList[$T] = $bullRow['bull_no'];
                                  $T = $T + 1;
