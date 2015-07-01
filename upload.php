@@ -242,6 +242,10 @@ mysqli_query($db,$query);
 
 $query = "UPDATE `bulls_details` SET `strawType`='Regular'";
 mysqli_query($db,$query);
+
+$query = "UPDATE `bulls_details` SET `Protein_percentage`=100 where Protein_percentage=0 or ISNULL(Protein_percentage)";
+mysqli_query($db,$query);
+
      
        // if ($result)
        // {
@@ -336,6 +340,14 @@ $farmName=$_POST["farmName"];
      $currentSire=$row['sire'];
      $currentMGS=$row['MGS'];
      
+      $query="UPDATE `local_cows` set brd_general_size=100 WHERE brd_general_size=0 or ISNULL(brd_general_size)";
+   $result = mysqli_query($db, $query); 
+   
+   $query="UPDATE `local_cows` set brd_Teats_placement=100 WHERE brd_Teats_placement=0 or ISNULL(brd_Teats_placement)";
+   $result = mysqli_query($db, $query); 
+   
+   $query="UPDATE `local_cows` set brd_legs=100 WHERE brd_legs=0 or ISNULL(brd_legs)";
+   $result = mysqli_query($db, $query); 
 
      $query="UPDATE  local_cows AS c,  `STV_per_traits_per_base` AS s
 SET c.brd_milk_kg =c.brd_milk_kg/s.STV*4 +100 WHERE s.Traits='milk[kg]' AND (
